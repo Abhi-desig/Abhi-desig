@@ -91,10 +91,12 @@ export function card({ repo, index = 0, theme, fonts }) {
     cx += cw + 7;
   }
 
-  const meta = [repo.stars > 0 ? `★ ${repo.stars}` : '', repo.live ? 'LIVE' : '']
+  // The CTA names where the click actually lands, and the grid wires the link
+  // to match: LIVE → the deployment, REPO → the source. Keeping the last token
+  // the destination means the card never advertises somewhere it doesn't go.
+  const cta = `${[repo.stars > 0 ? `★ ${repo.stars}` : '', repo.live ? 'LIVE' : 'REPO']
     .filter(Boolean)
-    .join('  ·  ');
-  const cta = meta ? `↗ ${meta}` : '↗ OPEN';
+    .join('  ·  ')}  ↗`;
 
   const css = `
   ${S.baseCss()}

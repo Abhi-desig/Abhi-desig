@@ -1,8 +1,8 @@
 <!-- HERO:START -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/hero-dark.svg?v=ef238cc1d7" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/hero-light.svg?v=cb00ad0612" />
-  <img alt="Abhinav Anil — Creative Technologist. Motion, interfaces, and small tools that do one thing well." src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/hero-dark.svg?v=ef238cc1d7" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/hero-dark.svg?v=5cfc6590d2" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/hero-light.svg?v=0b1a53314d" />
+  <img alt="Abhinav Anil — Creative Technologist. Motion, interfaces, and small tools that do one thing well." src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/hero-dark.svg?v=5cfc6590d2" width="100%" />
 </picture>
 <!-- HERO:END -->
 
@@ -33,18 +33,18 @@ Small tools, mostly at the seam between AI and creative work. I build rough, shi
 <td width="50%" valign="top">
 
 <a href="https://github.com/Abhi-desig/GitDNA-"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-gitdna-dark.svg?v=f14ba75b7e" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-gitdna-light.svg?v=a21f8dcece" />
-  <img alt="GitDNA — Reads a repository's commit history and renders its shape — who touched what, and when." src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-gitdna-dark.svg?v=f14ba75b7e" width="420" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-gitdna-dark.svg?v=299e3a3109" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-gitdna-light.svg?v=d8ff0dbba8" />
+  <img alt="GitDNA — Reads a repository's commit history and renders its shape — who touched what, and when. (opens the repository)" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-gitdna-dark.svg?v=299e3a3109" width="420" />
 </picture></a>
 
 </td>
 <td width="50%" valign="top">
 
 <a href="https://github.com/Abhi-desig/Gesture"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-gesture-dark.svg?v=0110f46b67" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-gesture-light.svg?v=c74081c083" />
-  <img alt="Gesture — Your hands drive macOS. MediaPipe watches, Node decides, Swift presses the keys." src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-gesture-dark.svg?v=0110f46b67" width="420" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-gesture-dark.svg?v=af61f27b61" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-gesture-light.svg?v=17c4a54618" />
+  <img alt="Gesture — Your hands drive macOS. MediaPipe watches, Node decides, Swift presses the keys. (opens the repository)" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-gesture-dark.svg?v=af61f27b61" width="420" />
 </picture></a>
 
 </td>
@@ -52,19 +52,19 @@ Small tools, mostly at the seam between AI and creative work. I build rough, shi
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://github.com/Abhi-desig/Prompt-Vault"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-prompt-vault-dark.svg?v=f2febec8c6" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-prompt-vault-light.svg?v=274dcec95b" />
-  <img alt="Prompt-Vault — Version control for prompts. Every edit is immutable, nothing is ever lost." src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-prompt-vault-dark.svg?v=f2febec8c6" width="420" />
+<a href="https://promptvault-alpha-five.vercel.app"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-prompt-vault-dark.svg?v=8f6dbcf5be" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-prompt-vault-light.svg?v=db792ea360" />
+  <img alt="Prompt-Vault — Version control for prompts. Every edit is immutable, nothing is ever lost. (opens the live site)" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-prompt-vault-dark.svg?v=8f6dbcf5be" width="420" />
 </picture></a>
 
 </td>
 <td width="50%" valign="top">
 
-<a href="https://github.com/Abhi-desig/Creative-Brief-Doctor"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-creative-brief-doctor-dark.svg?v=3ab6cee23e" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-creative-brief-doctor-light.svg?v=64dc7b5e4e" />
-  <img alt="Creative-Brief-Doctor — Scores a creative brief, finds the gaps, and asks the questions you forgot to." src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-creative-brief-doctor-dark.svg?v=3ab6cee23e" width="420" />
+<a href="https://creative-brief-doctor-web.vercel.app/"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-creative-brief-doctor-dark.svg?v=90b5b47d24" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-creative-brief-doctor-light.svg?v=702febfcc8" />
+  <img alt="Creative-Brief-Doctor — Scores a creative brief, finds the gaps, and asks the questions you forgot to. (opens the live site)" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-creative-brief-doctor-dark.svg?v=90b5b47d24" width="420" />
 </picture></a>
 
 </td>
@@ -94,9 +94,9 @@ Small tools, mostly at the seam between AI and creative work. I build rough, shi
 
 <!-- STATS:START -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/stats-dark.svg?v=23986edc28" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/stats-light.svg?v=1240bfe3d9" />
-  <img alt="75 contributions, 8 day streak, 4 public repos" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/stats-dark.svg?v=23986edc28" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/stats-dark.svg?v=a232ebd69b" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/stats-light.svg?v=d94bc6c01d" />
+  <img alt="79 contributions, 9 day streak, 4 public repos" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/stats-dark.svg?v=a232ebd69b" width="100%" />
 </picture>
 <!-- STATS:END -->
 

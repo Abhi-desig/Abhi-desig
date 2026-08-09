@@ -74,13 +74,19 @@ export function projectGrid(repos, urlFor) {
   }
 
   const cell = (repo) => {
+    // The thumbnail goes to the project itself — the deployed thing when there
+    // is one, the repository otherwise. Sending a card that reads "↗ LIVE" to a
+    // source tree is a small lie, and it's the click most people want anyway.
+    // The repo is always one click away in the full index below.
+    const href = repo.live || repo.url;
+    const dest = repo.live ? 'opens the live site' : 'opens the repository';
     const img = picture({
       dark: urlFor(repo, 'dark'),
       light: urlFor(repo, 'light'),
-      alt: `${repo.displayName} — ${repo.blurb}`,
+      alt: `${repo.displayName} — ${repo.blurb} (${dest})`,
       width: '420',
     });
-    return `<td width="50%" valign="top">\n\n<a href="${repo.url}">${img}</a>\n\n</td>`;
+    return `<td width="50%" valign="top">\n\n<a href="${href}">${img}</a>\n\n</td>`;
   };
 
   const rows = [];
