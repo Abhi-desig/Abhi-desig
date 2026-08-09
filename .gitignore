@@ -1,4 +1,6 @@
 node_modules/
 
-# Local iteration harness — regenerate with `npm run preview`.
+# Local iteration harness — regenerate with `npm run preview`
+# (or `npm run preview -- --static` to check the no-animation fallback).
 preview.html
+preview-static.html

@@ -9,31 +9,31 @@
       
     }
   
-  .bar{transform:scaleY(0);transform-origin:0 168px;animation:bar 6s cubic-bezier(.22,1,.36,1) infinite;animation-delay:0.24s}
+  .bar{transform-origin:0 168px;animation:bar 6s cubic-bezier(.22,1,.36,1) infinite backwards;animation-delay:0.24s}
   @keyframes bar{
     0%,4%{transform:scaleY(0)}
     16%,88%{transform:scaleY(1)}
     97%,100%{transform:scaleY(0)}
   }
 
-  .frame{opacity:0;animation:fr 6s cubic-bezier(.22,1,.36,1) infinite;animation-delay:0.24s}
+  .frame{animation:fr 6s cubic-bezier(.22,1,.36,1) infinite backwards;animation-delay:0.24s}
   @keyframes fr{0%,2%{opacity:0}14%,90%{opacity:1}98%,100%{opacity:0}}
 
-  .cl{opacity:0;animation:cl 6s cubic-bezier(.22,1,.36,1) infinite;animation-delay:calc(0.24s + var(--i)*22ms)}
+  .cl{animation:cl 6s cubic-bezier(.22,1,.36,1) infinite backwards;animation-delay:calc(0.24s + var(--i)*22ms)}
   @keyframes cl{
     0%,4.667%{opacity:0;transform:translateY(14px)}
     14.167%,86.667%{opacity:1;transform:translateY(0)}
     95.833%,100%{opacity:0}
   }
 
-  .cb{opacity:0;animation:cb 6s cubic-bezier(.22,1,.36,1) infinite;animation-delay:calc(0.24s + var(--i)*80ms)}
+  .cb{animation:cb 6s cubic-bezier(.22,1,.36,1) infinite backwards;animation-delay:calc(0.24s + var(--i)*80ms)}
   @keyframes cb{
     0%,11.667%{opacity:0;transform:translateY(7px)}
     20.000%,86.667%{opacity:1;transform:translateY(0)}
     95.833%,100%{opacity:0}
   }
 
-  .cc{opacity:0;animation:cc 6s cubic-bezier(.22,1,.36,1) infinite;animation-delay:calc(0.24s + var(--i)*70ms)}
+  .cc{animation:cc 6s cubic-bezier(.22,1,.36,1) infinite backwards;animation-delay:calc(0.24s + var(--i)*70ms)}
   @keyframes cc{
     0%,18.333%{opacity:0;transform:translateY(6px)}
     26.667%,86.667%{opacity:1;transform:translateY(0)}
@@ -41,10 +41,10 @@
   }
 
   /* The bar keeps a slow breath through the hold so the grid never dies. */
-  .glow{transform-box:fill-box;transform-origin:center;animation:glow 3.2s cubic-bezier(.4,0,.2,1) infinite}
+  .glow{transform-box:fill-box;transform-origin:center;animation:glow 3.2s cubic-bezier(.4,0,.2,1) infinite backwards}
   @keyframes glow{0%,100%{opacity:.95}50%{opacity:.45}}
 
-  .dot{transform-box:fill-box;transform-origin:center;animation:dot 3.2s cubic-bezier(.4,0,.2,1) infinite}
+  .dot{transform-box:fill-box;transform-origin:center;animation:dot 3.2s cubic-bezier(.4,0,.2,1) infinite backwards}
   @keyframes dot{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(.76);opacity:.55}}
   </style>
 <rect width="420" height="168" fill="#0A0A0A" />

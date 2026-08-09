@@ -100,31 +100,31 @@ export function card({ repo, index = 0, theme, fonts }) {
 
   const css = `
   ${S.baseCss()}
-  .bar{transform:scaleY(0);transform-origin:0 ${h}px;animation:bar ${D}s ${EASE.standard} infinite;animation-delay:${(index * 0.12).toFixed(2)}s}
+  .bar{transform-origin:0 ${h}px;animation:bar ${D}s ${EASE.standard} infinite backwards;animation-delay:${(index * 0.12).toFixed(2)}s}
   @keyframes bar{
     0%,4%{transform:scaleY(0)}
     16%,88%{transform:scaleY(1)}
     97%,100%{transform:scaleY(0)}
   }
 
-  .frame{opacity:0;animation:fr ${D}s ${EASE.standard} infinite;animation-delay:${(index * 0.12).toFixed(2)}s}
+  .frame{animation:fr ${D}s ${EASE.standard} infinite backwards;animation-delay:${(index * 0.12).toFixed(2)}s}
   @keyframes fr{0%,2%{opacity:0}14%,90%{opacity:1}98%,100%{opacity:0}}
 
-  .cl{opacity:0;animation:cl ${D}s ${EASE.standard} infinite;animation-delay:calc(${(index * 0.12).toFixed(2)}s + var(--i)*22ms)}
+  .cl{animation:cl ${D}s ${EASE.standard} infinite backwards;animation-delay:calc(${(index * 0.12).toFixed(2)}s + var(--i)*22ms)}
   @keyframes cl{
     0%,${pct(0.28, D)}{opacity:0;transform:translateY(14px)}
     ${pct(0.85, D)},${pct(5.2, D)}{opacity:1;transform:translateY(0)}
     ${pct(5.75, D)},100%{opacity:0}
   }
 
-  .cb{opacity:0;animation:cb ${D}s ${EASE.standard} infinite;animation-delay:calc(${(index * 0.12).toFixed(2)}s + var(--i)*80ms)}
+  .cb{animation:cb ${D}s ${EASE.standard} infinite backwards;animation-delay:calc(${(index * 0.12).toFixed(2)}s + var(--i)*80ms)}
   @keyframes cb{
     0%,${pct(0.7, D)}{opacity:0;transform:translateY(7px)}
     ${pct(1.2, D)},${pct(5.2, D)}{opacity:1;transform:translateY(0)}
     ${pct(5.75, D)},100%{opacity:0}
   }
 
-  .cc{opacity:0;animation:cc ${D}s ${EASE.standard} infinite;animation-delay:calc(${(index * 0.12).toFixed(2)}s + var(--i)*70ms)}
+  .cc{animation:cc ${D}s ${EASE.standard} infinite backwards;animation-delay:calc(${(index * 0.12).toFixed(2)}s + var(--i)*70ms)}
   @keyframes cc{
     0%,${pct(1.1, D)}{opacity:0;transform:translateY(6px)}
     ${pct(1.6, D)},${pct(5.2, D)}{opacity:1;transform:translateY(0)}
@@ -132,10 +132,10 @@ export function card({ repo, index = 0, theme, fonts }) {
   }
 
   /* The bar keeps a slow breath through the hold so the grid never dies. */
-  .glow{transform-box:fill-box;transform-origin:center;animation:glow 3.2s ${EASE.sharp} infinite}
+  .glow{transform-box:fill-box;transform-origin:center;animation:glow 3.2s ${EASE.sharp} infinite backwards}
   @keyframes glow{0%,100%{opacity:.95}50%{opacity:.45}}
 
-  .dot{transform-box:fill-box;transform-origin:center;animation:dot 3.2s ${EASE.sharp} infinite}
+  .dot{transform-box:fill-box;transform-origin:center;animation:dot 3.2s ${EASE.sharp} infinite backwards}
   @keyframes dot{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(.76);opacity:.55}}
   `;
 

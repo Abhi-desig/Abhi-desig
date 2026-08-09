@@ -67,9 +67,23 @@ if (files.includes('github-snake-dark.svg')) {
   groups.push({ name: 'Snake', bases: ['github-snake'], w: 880, raw: true });
 }
 
+/**
+ * `npm run preview -- --static` strips every animation declaration before
+ * embedding, simulating a renderer that never animates — an old browser, a
+ * rasterizer that snapshots the first frame, a throttled compositor.
+ *
+ * Worth checking after any timing change: the artwork must still be fully
+ * composed and readable with the motion removed. It is only ever one careless
+ * `opacity:0` in a base rule away from rendering as a black rectangle.
+ */
+const STATIC = process.argv.includes('--static');
+
 /** Base64 data URI, so the page stands alone with no server or relative paths. */
-const dataUri = (file) =>
-  `data:image/svg+xml;base64,${readFileSync(join(OUT, file)).toString('base64')}`;
+const dataUri = (file) => {
+  let svg = readFileSync(join(OUT, file), 'utf8');
+  if (STATIC) svg = svg.replace(/animation:[^;}]+[;]?/g, '');
+  return `data:image/svg+xml;base64,${Buffer.from(svg).toString('base64')}`;
+};
 
 const section = (g) => {
   const rows = g.bases
@@ -129,7 +143,7 @@ const html = `<!doctype html>
 </head>
 <body>
 <header>
-  <h1>Motion preview</h1>
+  <h1>Motion preview${STATIC ? " — static fallback" : ""}</h1>
   ${summary}
   <button onclick="[...document.images].forEach(i=>{const s=i.src;i.src='';i.src=s})">Replay all</button>
 </header>

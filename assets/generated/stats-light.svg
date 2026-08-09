@@ -9,37 +9,37 @@
       
     }
   
-  .rail{opacity:0;animation:fade 7s cubic-bezier(.22,1,.36,1) infinite}
+  .rail{animation:fade 7s cubic-bezier(.22,1,.36,1) infinite backwards}
   @keyframes fade{0%,2%{opacity:0}9%,90%{opacity:1}97%,100%{opacity:0}}
 
-  .hr{transform:scaleX(0);transform-origin:64px 0;animation:hr 7s cubic-bezier(.22,1,.36,1) infinite}
+  .hr{transform-origin:64px 0;animation:hr 7s cubic-bezier(.22,1,.36,1) infinite backwards}
   @keyframes hr{0%,3%{transform:scaleX(0)}13%,90%{transform:scaleX(1)}97%,100%{transform:scaleX(0)}}
 
-  .lab{opacity:0;animation:lab 7s cubic-bezier(.22,1,.36,1) infinite;animation-delay:calc(var(--i)*70ms)}
+  .lab{animation:lab 7s cubic-bezier(.22,1,.36,1) infinite backwards;animation-delay:calc(var(--i)*70ms)}
   @keyframes lab{0%,5%{opacity:0}14%,90%{opacity:1}97%,100%{opacity:0}}
 
-  .num{opacity:0;animation:num 7s cubic-bezier(.22,1,.36,1) infinite;animation-delay:calc(var(--i)*90ms)}
+  .num{animation:num 7s cubic-bezier(.22,1,.36,1) infinite backwards;animation-delay:calc(var(--i)*90ms)}
   @keyframes num{
     0%,7.143%{opacity:0;transform:translateY(20px)}
     16.429%,88.571%{opacity:1;transform:translateY(0)}
     97.143%,100%{opacity:0}
   }
 
-  .seg{transform:scaleX(0);animation:seg 7s cubic-bezier(.22,1,.36,1) infinite;animation-delay:calc(var(--i)*85ms)}
+  .seg{animation:seg 7s cubic-bezier(.22,1,.36,1) infinite backwards;animation-delay:calc(var(--i)*85ms)}
   @keyframes seg{
     0%,18.571%{transform:scaleX(0)}
     30.000%,88.571%{transform:scaleX(1)}
     97.143%,100%{transform:scaleX(0)}
   }
 
-  .leg{opacity:0;animation:leg 7s cubic-bezier(.22,1,.36,1) infinite;animation-delay:calc(var(--i)*75ms)}
+  .leg{animation:leg 7s cubic-bezier(.22,1,.36,1) infinite backwards;animation-delay:calc(var(--i)*75ms)}
   @keyframes leg{
     0%,27.143%{opacity:0;transform:translateY(6px)}
     35.000%,88.571%{opacity:1;transform:translateY(0)}
     97.143%,100%{opacity:0}
   }
 
-  .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s cubic-bezier(.4,0,.2,1) infinite}
+  .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s cubic-bezier(.4,0,.2,1) infinite backwards}
   @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.38;transform:scale(.72)}}
   </style>
 <rect width="1280" height="268" fill="#FAFAF8" />
