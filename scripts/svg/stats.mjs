@@ -109,37 +109,37 @@ export function stats({ data, theme, fonts }) {
 
   const css = `
   ${S.baseCss()}
-  .rail{opacity:0;animation:fade ${D}s ${EASE.standard} infinite}
+  .rail{animation:fade ${D}s ${EASE.standard} infinite backwards}
   @keyframes fade{0%,2%{opacity:0}9%,90%{opacity:1}97%,100%{opacity:0}}
 
-  .hr{transform:scaleX(0);transform-origin:${M}px 0;animation:hr ${D}s ${EASE.standard} infinite}
+  .hr{transform-origin:${M}px 0;animation:hr ${D}s ${EASE.standard} infinite backwards}
   @keyframes hr{0%,3%{transform:scaleX(0)}13%,90%{transform:scaleX(1)}97%,100%{transform:scaleX(0)}}
 
-  .lab{opacity:0;animation:lab ${D}s ${EASE.standard} infinite;animation-delay:calc(var(--i)*70ms)}
+  .lab{animation:lab ${D}s ${EASE.standard} infinite backwards;animation-delay:calc(var(--i)*70ms)}
   @keyframes lab{0%,5%{opacity:0}14%,90%{opacity:1}97%,100%{opacity:0}}
 
-  .num{opacity:0;animation:num ${D}s ${EASE.standard} infinite;animation-delay:calc(var(--i)*90ms)}
+  .num{animation:num ${D}s ${EASE.standard} infinite backwards;animation-delay:calc(var(--i)*90ms)}
   @keyframes num{
     0%,${pct(0.5, D)}{opacity:0;transform:translateY(20px)}
     ${pct(1.15, D)},${pct(6.2, D)}{opacity:1;transform:translateY(0)}
     ${pct(6.8, D)},100%{opacity:0}
   }
 
-  .seg{transform:scaleX(0);animation:seg ${D}s ${EASE.standard} infinite;animation-delay:calc(var(--i)*85ms)}
+  .seg{animation:seg ${D}s ${EASE.standard} infinite backwards;animation-delay:calc(var(--i)*85ms)}
   @keyframes seg{
     0%,${pct(1.3, D)}{transform:scaleX(0)}
     ${pct(2.1, D)},${pct(6.2, D)}{transform:scaleX(1)}
     ${pct(6.8, D)},100%{transform:scaleX(0)}
   }
 
-  .leg{opacity:0;animation:leg ${D}s ${EASE.standard} infinite;animation-delay:calc(var(--i)*75ms)}
+  .leg{animation:leg ${D}s ${EASE.standard} infinite backwards;animation-delay:calc(var(--i)*75ms)}
   @keyframes leg{
     0%,${pct(1.9, D)}{opacity:0;transform:translateY(6px)}
     ${pct(2.45, D)},${pct(6.2, D)}{opacity:1;transform:translateY(0)}
     ${pct(6.8, D)},100%{opacity:0}
   }
 
-  .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ${EASE.sharp} infinite}
+  .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ${EASE.sharp} infinite backwards}
   @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.38;transform:scale(.72)}}
   `;
 

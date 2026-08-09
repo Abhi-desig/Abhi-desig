@@ -112,3 +112,22 @@ export function baseCss(extraReduced = '') {
     }
   `;
 }
+
+/**
+ * Animation shorthand suffix used by every generator.
+ *
+ * `backwards` fill-mode is the load-bearing part, and the reason every element's
+ * *base* state is the finished composition rather than the hidden start state:
+ *
+ *   - When animation runs, fill-mode backwards applies the 0% keyframe during
+ *     the delay, so staggered elements stay hidden until their turn. The intro
+ *     plays exactly as designed.
+ *   - When animation does not run — an old renderer, a rasterizer that snapshots
+ *     the first frame, a throttled compositor — the base state applies and the
+ *     artwork is simply *there*, fully composed.
+ *
+ * With the start state in the base rule instead, anything that failed to animate
+ * rendered a black rectangle. For a portfolio page that is the worst available
+ * failure, and this costs nothing to avoid.
+ */
+export const FILL = 'backwards';

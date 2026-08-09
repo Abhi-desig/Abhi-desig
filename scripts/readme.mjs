@@ -35,12 +35,25 @@ export function assetUrl({ repoPath, branch, file, hash }) {
  * each asset ships light and dark variants and switches with the site theme
  * rather than compromising on one palette that works badly in both.
  */
-export function picture({ dark, light, alt, width = '100%' }) {
-  return `<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="${dark}" />
-  <source media="(prefers-color-scheme: light)" srcset="${light}" />
-  <img alt="${alt}" src="${dark}" width="${width}" />
-</picture>`;
+export function picture({ dark, light, alt, width = '100%', inline = false }) {
+  const parts = [
+    `<source media="(prefers-color-scheme: dark)" srcset="${dark}" />`,
+    `<source media="(prefers-color-scheme: light)" srcset="${light}" />`,
+    `<img alt="${alt}" src="${dark}" width="${width}" />`,
+  ];
+
+  // Inside a table cell the whole thing must be a single line.
+  //
+  // GitHub's markdown parser ends an HTML block at a blank line and resumes
+  // parsing markdown, which splits a multi-line <picture> at its newlines and
+  // ejects <source>/<img> out of it. The result is quietly catastrophic: the
+  // wrapping <a> is left around an empty <picture> (so the link is a dead
+  // 76×19 box), the orphaned <img> gets auto-linked by GitHub to the raw image
+  // file, and theme switching dies because the <source> tags are gone.
+  // Everything still *looks* fine, which is why it needs a comment.
+  if (inline) return `<picture>${parts.join('')}</picture>`;
+
+  return `<picture>\n  ${parts.join('\n  ')}\n</picture>`;
 }
 
 /**
@@ -74,13 +87,21 @@ export function projectGrid(repos, urlFor) {
   }
 
   const cell = (repo) => {
+    // The thumbnail goes to the project itself — the deployed thing when there
+    // is one, the repository otherwise. Sending a card that reads "↗ LIVE" to a
+    // source tree is a small lie, and it's the click most people want anyway.
+    // The repo is always one click away in the full index below.
+    const href = repo.live || repo.url;
+    const dest = repo.live ? 'opens the live site' : 'opens the repository';
     const img = picture({
       dark: urlFor(repo, 'dark'),
       light: urlFor(repo, 'light'),
-      alt: `${repo.displayName} — ${repo.blurb}`,
+      alt: `${repo.displayName} — ${repo.blurb} (${dest})`,
       width: '420',
+      inline: true,
     });
-    return `<td width="50%" valign="top">\n\n<a href="${repo.url}">${img}</a>\n\n</td>`;
+    // One line, no blank lines — see picture() for why this is load-bearing.
+    return `<td width="50%" valign="top"><a href="${href}">${img}</a></td>`;
   };
 
   const rows = [];
@@ -88,7 +109,7 @@ export function projectGrid(repos, urlFor) {
     const pair = repos.slice(i, i + 2).map(cell);
     // Pad the final odd row so the table doesn't collapse to full width.
     if (pair.length === 1) pair.push('<td width="50%"></td>');
-    rows.push(`<tr>\n${pair.join('\n')}\n</tr>`);
+    rows.push(`<tr>${pair.join('')}</tr>`);
   }
 
   return `<table>\n${rows.join('\n')}\n</table>`;

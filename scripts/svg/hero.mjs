@@ -91,7 +91,7 @@ export function hero({ data, theme, fonts }) {
       `<path d="${l.glyphs.map((g) => g.d).join('')}" class="cnt c${i}${isLast ? ' cnt-last' : ''}" fill="${t.type}" />`,
     );
     counterCss.push(
-      `.c${i}{animation:c${i} ${D}s ${EASE.linear} infinite}
+      `.c${i}{animation:c${i} ${D}s ${EASE.linear} infinite backwards}
        @keyframes c${i}{
          0%,${pct(from - 0.001, D)}{opacity:0}
          ${pct(from, D)},${pct(to - 0.001, D)}{opacity:1}
@@ -119,24 +119,24 @@ export function hero({ data, theme, fonts }) {
   const css = `
   ${S.baseCss('.cnt{opacity:0!important}.cnt-last{opacity:1!important}')}
 
-  .gc{opacity:0;animation:gc ${D}s ${EASE.sharp} infinite;animation-delay:calc(var(--i)*28ms)}
+  .gc{animation:gc ${D}s ${EASE.sharp} infinite backwards;animation-delay:calc(var(--i)*28ms)}
   @keyframes gc{0%{opacity:0}6%,88%{opacity:1}97%,100%{opacity:0}}
 
-  .rail{opacity:0;animation:fade ${D}s ${EASE.standard} infinite}
-  .rail-b{opacity:0;animation:fade ${D}s ${EASE.standard} infinite;animation-delay:.12s}
+  .rail{animation:fade ${D}s ${EASE.standard} infinite backwards}
+  .rail-b{animation:fade ${D}s ${EASE.standard} infinite backwards;animation-delay:.12s}
   @keyframes fade{0%,2%{opacity:0}8%,90%{opacity:1}97%,100%{opacity:0}}
 
-  .hr{transform:scaleX(0);transform-origin:${M}px 0;animation:hr ${D}s ${EASE.standard} infinite}
+  .hr{transform-origin:${M}px 0;animation:hr ${D}s ${EASE.standard} infinite backwards}
   @keyframes hr{0%,3%{transform:scaleX(0)}12%,90%{transform:scaleX(1)}97%,100%{transform:scaleX(0)}}
 
-  .l{opacity:0;animation:rise ${D}s ${EASE.standard} infinite;animation-delay:calc(var(--i)*45ms)}
+  .l{animation:rise ${D}s ${EASE.standard} infinite backwards;animation-delay:calc(var(--i)*45ms)}
   @keyframes rise{
     0%,${pct(0.35, D)}{opacity:0;transform:translateY(${Math.round(size * 0.8)}px)}
     ${pct(1.05, D)},${pct(6.1, D)}{opacity:1;transform:translateY(0)}
     ${pct(6.75, D)},100%{opacity:0;transform:translateY(-14px)}
   }
 
-  .accent-rule{transform:scaleX(0);transform-origin:${M}px 0;animation:ar ${D}s ${EASE.standard} infinite}
+  .accent-rule{transform-origin:${M}px 0;animation:ar ${D}s ${EASE.standard} infinite backwards}
   @keyframes ar{
     0%,${pct(1.2, D)}{transform:scaleX(0)}
     ${pct(1.75, D)},${pct(6.2, D)}{transform:scaleX(1)}
@@ -145,28 +145,33 @@ export function hero({ data, theme, fonts }) {
 
   /* Mask wipe via a clipPath rect scaled on the X axis. Scaling a clip rect is
      portable; animating its width attribute is not. */
-  .roleWipe{transform:scaleX(0);transform-origin:${M}px 0;animation:rw ${D}s ${EASE.standard} infinite}
+  .roleWipe{transform-origin:${M}px 0;animation:rw ${D}s ${EASE.standard} infinite backwards}
   @keyframes rw{
     0%,${pct(1.4, D)}{transform:scaleX(0)}
     ${pct(2.0, D)},${pct(6.2, D)}{transform:scaleX(1)}
     ${pct(6.8, D)},100%{transform:scaleX(0)}
   }
 
-  .tag{opacity:0;animation:tag ${D}s ${EASE.standard} infinite}
+  .tag{animation:tag ${D}s ${EASE.standard} infinite backwards}
   @keyframes tag{
     0%,${pct(1.7, D)}{opacity:0;transform:translateY(9px)}
     ${pct(2.25, D)},${pct(6.2, D)}{opacity:1;transform:translateY(0)}
     ${pct(6.8, D)},100%{opacity:0}
   }
 
+  /* The counter is the one element whose base state can't be "visible" — all
+     the tick frames sit on top of each other. Base hides them and reveals only
+     the final value, so a renderer that never animates shows the true repo
+     count instead of a stack of overlapping digits. */
   .cnt{opacity:0}
+  .cnt-last{opacity:1}
   ${counterCss.join('\n')}
 
-  .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ${EASE.sharp} infinite}
+  .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ${EASE.sharp} infinite backwards}
   @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.38;transform:scale(.72)}}
 
   /* One slow sweep during the hold, so the frame never sits perfectly still. */
-  .scan{opacity:0;animation:scan ${D}s ${EASE.linear} infinite}
+  .scan{opacity:0;animation:scan ${D}s ${EASE.linear} infinite backwards}
   @keyframes scan{
     0%,${pct(3.6, D)}{opacity:0;transform:translateX(-140px)}
     ${pct(3.95, D)}{opacity:1}
