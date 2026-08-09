@@ -1,74 +1,158 @@
-<h1 align="center">Hi there, I'm Abhinav Anil 👋</h1>
+<!-- HERO:START -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/hero-dark.svg?v=ef238cc1d7" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/hero-light.svg?v=cb00ad0612" />
+  <img alt="Abhinav Anil — Creative Technologist. Motion, interfaces, and small tools that do one thing well." src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/hero-dark.svg?v=ef238cc1d7" width="100%" />
+</picture>
+<!-- HERO:END -->
 
 <p align="center">
-  <em>Learning. Building. Vibe coding.</em>
+  <a href="#work"><b>Work</b></a> &nbsp;·&nbsp;
+  <a href="#signals"><b>Signals</b></a> &nbsp;·&nbsp;
+  <a href="#how-this-page-builds-itself"><b>Colophon</b></a> &nbsp;·&nbsp;
+  <a href="#say-hello"><b>Contact</b></a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/Abhi-desig?tab=followers">
-    <img src="https://img.shields.io/github/followers/Abhi-desig?label=Follow&style=social" alt="GitHub followers" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=Abhi-desig&label=Profile%20views&color=8b5cf6&style=flat" alt="Profile views" />
-</p>
+<!-- MARQUEE:START -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/marquee-dark.svg?v=15e223deee" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/marquee-light.svg?v=eca34600da" />
+  <img alt="Stack: TypeScript, JavaScript, Python, Shell, Swift, CSS" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/marquee-dark.svg?v=15e223deee" width="100%" />
+</picture>
+<!-- MARQUEE:END -->
 
----
+<br />
 
-## 🧠 About Me
+## Work
 
-I build small, useful tools — mostly at the intersection of **AI, prompts, and creative work**. I like shipping fast, learning in public, and turning messy workflows into something that actually works.
+Small tools, mostly at the seam between AI and creative work. I build rough, ship early, then make it good.
 
-- 🔭 Currently building **Prompt-Vault** and **Creative-Brief-Doctor**
-- 🌱 Learning **TypeScript**, AI tooling, and better product thinking
-- ⚡ Philosophy: build it rough, ship it, then make it good
-- 💬 Ask me about prompts, creative workflows, or vibe coding
+<!-- PROJECTS:START -->
+<table>
+<tr>
+<td width="50%" valign="top">
 
----
+<a href="https://github.com/Abhi-desig/GitDNA-"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-gitdna-dark.svg?v=f14ba75b7e" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-gitdna-light.svg?v=a21f8dcece" />
+  <img alt="GitDNA — Reads a repository's commit history and renders its shape — who touched what, and when." src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-gitdna-dark.svg?v=f14ba75b7e" width="420" />
+</picture></a>
 
-## 🚀 What I'm Working On
+</td>
+<td width="50%" valign="top">
 
-| Project | What it does | Stack |
-|---|---|---|
-| [**Prompt-Vault**](https://github.com/Abhi-desig/Prompt-Vault) | A home for prompts worth keeping — organised, searchable, reusable. | TypeScript |
-| [**Creative-Brief-Doctor**](https://github.com/Abhi-desig/Creative-Brief-Doctor) | Turns vague creative briefs into sharp, usable ones. | TypeScript |
+<a href="https://github.com/Abhi-desig/Gesture"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-gesture-dark.svg?v=0110f46b67" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-gesture-light.svg?v=c74081c083" />
+  <img alt="Gesture — Your hands drive macOS. MediaPipe watches, Node decides, Swift presses the keys." src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-gesture-dark.svg?v=0110f46b67" width="420" />
+</picture></a>
 
----
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-## 🛠️ Tools & Tech
+<a href="https://github.com/Abhi-desig/Prompt-Vault"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-prompt-vault-dark.svg?v=f2febec8c6" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-prompt-vault-light.svg?v=274dcec95b" />
+  <img alt="Prompt-Vault — Version control for prompts. Every edit is immutable, nothing is ever lost." src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-prompt-vault-dark.svg?v=f2febec8c6" width="420" />
+</picture></a>
 
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
-</p>
+</td>
+<td width="50%" valign="top">
 
----
+<a href="https://github.com/Abhi-desig/Creative-Brief-Doctor"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-creative-brief-doctor-dark.svg?v=3ab6cee23e" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-creative-brief-doctor-light.svg?v=64dc7b5e4e" />
+  <img alt="Creative-Brief-Doctor — Scores a creative brief, finds the gaps, and asks the questions you forgot to." src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/card-creative-brief-doctor-dark.svg?v=3ab6cee23e" width="420" />
+</picture></a>
 
-## 📊 GitHub Stats
+</td>
+</tr>
+</table>
+<!-- PROJECTS:END -->
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Abhi-desig&show_icons=true&theme=tokyonight&hide_border=true" alt="Abhinav's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhi-desig&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
-</p>
+<details>
+<summary><b>The full index</b> — every repo, as plain text</summary>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Abhi-desig&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-</p>
+<br />
 
----
+<!-- INDEX:START -->
+| Project | What it does | Stack | |
+|---|---|---|---|
+| [**GitDNA**](https://github.com/Abhi-desig/GitDNA-) | Reads a repository's commit history and renders its shape — who touched what, and when. | `Python` | [repo ↗](https://github.com/Abhi-desig/GitDNA-) |
+| [**Gesture**](https://github.com/Abhi-desig/Gesture) | A gesture-powered macOS companion where AI watches your hand, Chrome sees the motion, Node makes the decisions, Swift presses the keys, and Rust quietly keeps everything alive. No clicks. Just vibes and surprisingly cooperative software. | `JavaScript` | [repo ↗](https://github.com/Abhi-desig/Gesture) |
+| [**Prompt-Vault**](https://github.com/Abhi-desig/Prompt-Vault) | PromptVault is a version-controlled AI prompt manager that lets you save, organize, search, compare, and restore prompts without ever losing previous edits. Every change creates an immutable version, giving you a complete history of your prompt evolution. | `TypeScript` | [repo ↗](https://github.com/Abhi-desig/Prompt-Vault) · [live ↗](https://promptvault-alpha-five.vercel.app) |
+| [**Creative-Brief-Doctor**](https://github.com/Abhi-desig/Creative-Brief-Doctor) | Creative Brief Doctor is an AI-powered tool that scores creative briefs, identifies gaps, and generates actionable follow-up questions in a shareable report. | `TypeScript` | [repo ↗](https://github.com/Abhi-desig/Creative-Brief-Doctor) · [live ↗](https://creative-brief-doctor-web.vercel.app/) |
+<!-- INDEX:END -->
 
-## 🤝 Connect
+</details>
 
-<p>
-  <a href="https://linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://x.com/YOUR-HANDLE"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
-  <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-</p>
+<br />
 
----
+## Signals
 
-<p align="center">
-  <sub>Always building something. Usually at 1am.</sub>
-</p>
+<!-- STATS:START -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/stats-dark.svg?v=23986edc28" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/stats-light.svg?v=1240bfe3d9" />
+  <img alt="75 contributions, 8 day streak, 4 public repos" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/stats-dark.svg?v=23986edc28" width="100%" />
+</picture>
+<!-- STATS:END -->
+
+<br />
+
+## How this page builds itself
+
+<details>
+<summary><b>Open the hood</b></summary>
+
+<br />
+
+This README is a build artifact. Nothing on it is typed by hand except the prose you're reading.
+
+Four times a day, a GitHub Action asks the GraphQL API what I've been doing, hands the answer to a
+set of SVG generators in [`scripts/`](scripts/), and rewrites the regions of this file between
+`<!-- MARKER:START -->` comments. Push a new public repo and a card for it appears here on the next
+run — art-directed like everything else, with no editing.
+
+**The constraints shaped it.** GitHub strips `<script>`, so there's no JavaScript. Pointer events
+don't reach inside an `<img>`, so there are no hover states. An SVG loaded that way can't fetch a
+webfont either, so the display type is converted to vector paths at build time — which is why the
+headline renders identically for you as it does for me.
+
+What's left that *is* interactive: these accordions, a click target on every card, and art that
+switches with your GitHub theme.
+
+**Motion notes.** Everything loops rather than playing once — GitHub lazy-loads images, and a
+one-shot title sequence usually finishes before it scrolls into view, leaving a dead frame. Each
+asset runs on a single master clock with per-element delays for stagger, so the phase relationships
+hold forever instead of drifting apart. Timelines are authored in seconds and converted to keyframe
+percentages, the way you'd key them on a real timeline.
+
+**Nothing here is hotlinked.** Every asset is generated into this repo and served from it. The
+previous version of this page pulled its stats from a `herokuapp.com` endpoint that had gone dark,
+so the numbers rendered as a broken image for anyone who visited. Contribution counts, streaks and
+language splits are all computed from data the build already fetched.
+
+| | |
+|---|---|
+| Refresh | Every 6 hours, plus on demand |
+| Auth | The workflow's built-in `GITHUB_TOKEN` — no PAT |
+| Build | [`scripts/build.mjs`](scripts/build.mjs) · [`refresh.yml`](.github/workflows/refresh.yml) |
+| Type | [Space Grotesk](https://github.com/floriankarsten/space-grotesk), OFL, converted to paths |
+| Snake | [Platane/snk](https://github.com/Platane/snk) |
+
+</details>
+
+<br />
+
+## Say hello
+
+<!-- CONTACT:START -->
+[**GitHub**](https://github.com/Abhi-desig)
+<!-- CONTACT:END -->
+
+<br />
+
+<sub>Built it rough, shipped it, still making it good.</sub>

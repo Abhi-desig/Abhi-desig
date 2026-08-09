@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" fill="none" role="img" aria-label="Abhinav Anil — Creative Technologist">
+<title>Abhinav Anil — Creative Technologist</title>
+<desc>Motion, interfaces, and small tools that do one thing well.</desc>
+<style>
+  
+    text{dominant-baseline:auto}
+    @media (prefers-reduced-motion:reduce){
+      *{animation:none!important;opacity:1!important;transform:none!important}
+      .cnt{opacity:0!important}.cnt-last{opacity:1!important}
+    }
+  
+
+  .gc{opacity:0;animation:gc 7s cubic-bezier(.4,0,.2,1) infinite;animation-delay:calc(var(--i)*28ms)}
+  @keyframes gc{0%{opacity:0}6%,88%{opacity:1}97%,100%{opacity:0}}
+
+  .rail{opacity:0;animation:fade 7s cubic-bezier(.22,1,.36,1) infinite}
+  .rail-b{opacity:0;animation:fade 7s cubic-bezier(.22,1,.36,1) infinite;animation-delay:.12s}
+  @keyframes fade{0%,2%{opacity:0}8%,90%{opacity:1}97%,100%{opacity:0}}
+
+  .hr{transform:scaleX(0);transform-origin:64px 0;animation:hr 7s cubic-bezier(.22,1,.36,1) infinite}
+  @keyframes hr{0%,3%{transform:scaleX(0)}12%,90%{transform:scaleX(1)}97%,100%{transform:scaleX(0)}}
+
+  .l{opacity:0;animation:rise 7s cubic-bezier(.22,1,.36,1) infinite;animation-delay:calc(var(--i)*45ms)}
+  @keyframes rise{
+    0%,5.000%{opacity:0;transform:translateY(106px)}
+    15.000%,87.143%{opacity:1;transform:translateY(0)}
+    96.429%,100%{opacity:0;transform:translateY(-14px)}
+  }
+
+  .accent-rule{transform:scaleX(0);transform-origin:64px 0;animation:ar 7s cubic-bezier(.22,1,.36,1) infinite}
+  @keyframes ar{
+    0%,17.143%{transform:scaleX(0)}
+    25.000%,88.571%{transform:scaleX(1)}
+    97.143%,100%{transform:scaleX(0)}
+  }
+
+  /* Mask wipe via a clipPath rect scaled on the X axis. Scaling a clip rect is
+     portable; animating its width attribute is not. */
+  .roleWipe{transform:scaleX(0);transform-origin:64px 0;animation:rw 7s cubic-bezier(.22,1,.36,1) infinite}
+  @keyframes rw{
+    0%,20.000%{transform:scaleX(0)}
+    28.571%,88.571%{transform:scaleX(1)}
+    97.143%,100%{transform:scaleX(0)}
+  }
+
+  .tag{opacity:0;animation:tag 7s cubic-bezier(.22,1,.36,1) infinite}
+  @keyframes tag{
+    0%,24.286%{opacity:0;transform:translateY(9px)}
+    32.143%,88.571%{opacity:1;transform:translateY(0)}
+    97.143%,100%{opacity:0}
+  }
+
+  .cnt{opacity:0}
+  .c0{animation:c0 7s linear infinite}
+       @keyframes c0{
+         0%,26.414%{opacity:0}
+         26.429%,28.057%{opacity:1}
+         28.071%,100%{opacity:0}
+       }
+.c1{animation:c1 7s linear infinite}
+       @keyframes c1{
+         0%,28.057%{opacity:0}
+         28.071%,29.700%{opacity:1}
+         29.714%,100%{opacity:0}
+       }
+.c2{animation:c2 7s linear infinite}
+       @keyframes c2{
+         0%,29.700%{opacity:0}
+         29.714%,31.343%{opacity:1}
+         31.357%,100%{opacity:0}
+       }
+.c3{animation:c3 7s linear infinite}
+       @keyframes c3{
+         0%,31.343%{opacity:0}
+         31.357%,32.986%{opacity:1}
+         33.000%,100%{opacity:0}
+       }
+.c4{animation:c4 7s linear infinite}
+       @keyframes c4{
+         0%,32.986%{opacity:0}
+         33.000%,88.557%{opacity:1}
+         88.571%,100%{opacity:0}
+       }
+
+  .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s cubic-bezier(.4,0,.2,1) infinite}
+  @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.38;transform:scale(.72)}}
+
+  /* One slow sweep during the hold, so the frame never sits perfectly still. */
+  .scan{opacity:0;animation:scan 7s linear infinite}
+  @keyframes scan{
+    0%,51.429%{opacity:0;transform:translateX(-140px)}
+    56.429%{opacity:1}
+    78.571%,100%{opacity:0;transform:translateX(1420px)}
+  }</style>
+<defs>
+  <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#E8380F" stop-opacity="0" />
+    <stop offset="0.5" stop-color="#E8380F" stop-opacity="0.14" />
+    <stop offset="1" stop-color="#E8380F" stop-opacity="0" />
+  </linearGradient>
+  <clipPath id="roleClip">
+    <rect class="roleWipe" x="64" y="268" width="406.4" height="30" />
+  </clipPath>
+</defs>
+
+<rect width="1280" height="380" fill="#FAFAF8" />
+<g><line x1="0.5" y1="0" x2="0.5" y2="380" stroke="rgba(10,10,10,0.06)" stroke-width="1" class="gc" style="--i:0" /><line x1="64.5" y1="0" x2="64.5" y2="380" stroke="rgba(10,10,10,0.06)" stroke-width="1" class="gc" style="--i:1" /><line x1="128.5" y1="0" x2="128.5" y2="380" stroke="rgba(10,10,10,0.06)" stroke-width="1" class="gc" style="--i:2" /><line x1="192.5" y1="0" x2="192.5" y2="380" stroke="rgba(10,10,10,0.06)" stroke-width="1" class="gc" style="--i:3" /><line x1="256.5" y1="0" x2="256.5" y2="380" stroke="rgba(10,10,10,0.06)" stroke-width="1" class="gc" style="--i:4" /><line x1="320.5" y1="0" x2="320.5" y2="380" stroke="rgba(10,10,10,0.06)" stroke-width="1" class="gc" style="--i:5" /><line x1="384.5" y1="0" x2="384.5" y2="380" stroke="rgba(10,10,10,0.06)" stroke-width="1" class="gc" style="--i:6" /><line x1="448.5" y1="0" x2="448.5" y2="380" stroke="rgba(10,10,10,0.06)" stroke-width="1" class="gc" style="--i:7" /><line x1="512.5" y1="0" x2="512.5" y2="380" stroke="rgba(10,10,10,0.06)" stroke-width="1" class="gc" style="--i:8" /><line x1="576.5" y1="0" x2="576.5" y2="380" stroke="rgba(10,10,10,0.06)" stroke-width="1" class="gc" style="--i:9" /><line x1="640.5" y1="0" x2="640.5" y2="380" stroke="rgba(10,10,10,0.06)" stroke-width="1" class="gc" style="--i:10" /><line x1="704.5" y1="0" x2="704.5" y2="380" stroke="rgba(10,10,10,0.06)" stroke-width="1" class="gc" style="--i:11" /><line x1="768.5" y1="0" x2="768.5" y2="380" stroke="rgba(10,10,10,0.06)" stroke-width="1" class="gc" style="--i:12" /><line x1="832.5" y1="0" x2="832.5" y2="380" stroke="rgba(10,10,10,0.06)" stroke-width="1" class="gc" style="--i:13" /><line x1="896.5" y1="0" x2="896.5" y2="380" stroke="rgba(10,10,10,0.06)" stroke-width="1" class="gc" style="--i:14" /><line x1="960.5" y1="0" x2="960.5" y2="380" stroke="rgba(10,10,10,0.06)" stroke-width="1" class="gc" style="--i:15" /><line x1="1024.5" y1="0" x2="1024.5" y2="380" stroke="rgba(10,10,10,0.06)" stroke-width="1" class="gc" style="--i:16" /><line x1="1088.5" y1="0" x2="1088.5" y2="380" stroke="rgba(10,10,10,0.06)" stroke-width="1" class="gc" style="--i:17" /><line x1="1152.5" y1="0" x2="1152.5" y2="380" stroke="rgba(10,10,10,0.06)" stroke-width="1" class="gc" style="--i:18" /><line x1="1216.5" y1="0" x2="1216.5" y2="380" stroke="rgba(10,10,10,0.06)" stroke-width="1" class="gc" style="--i:19" /><line x1="1280.5" y1="0" x2="1280.5" y2="380" stroke="rgba(10,10,10,0.06)" stroke-width="1" class="gc" style="--i:20" /></g>
+<g class="scan"><rect x="-120" y="0" width="120" height="380" fill="url(#sweep)" /></g>
+
+<g class="rail">
+  <rect x="64" y="40" width="7" height="7" fill="#E8380F" />
+  <text x="82" y="47" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="500" letter-spacing="2.4" fill="#5F5F5F" fill-opacity="1" text-anchor="start" xml:space="preserve">@Abhi-desig</text>
+  <circle cx="1020.6" cy="43.5" r="3.5" fill="#E8380F" class="pulse" />
+  <text x="1216" y="47" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="500" letter-spacing="2.4" fill="#5F5F5F" fill-opacity="1" text-anchor="end" xml:space="preserve">LIVE · AUTO-INDEXED</text>
+</g>
+<g class="hr"><rect x="64" y="68.5" width="1152" height="1" fill="rgba(10,10,10,0.14)" /></g>
+
+<g transform="translate(64 214)"><path d="M20.33 0L2.38 0L26.66-92.40L57.02-92.40L81.31 0L63.36 0L58.34-20.33L25.34-20.33L20.33 0M40.66-81.44L29.44-36.43L54.25-36.43L43.03-81.44" class="l" style="--i:0" fill="#0A0A0A" /><path d="M132.81 0L84.76 0L84.76-15.31L96.91-15.31L96.91-77.09L84.76-77.09L84.76-92.40L132.28-92.40Q144.95-92.40 152.61-86.13Q160.27-79.86 160.27-69.04L160.27-67.72Q160.27-61.38 157.89-57.35Q155.51-53.33 152.28-51.15Q149.05-48.97 146.14-48.05L146.14-45.67Q149.05-44.88 152.48-42.70Q155.91-40.52 158.35-36.43Q160.79-32.34 160.79-25.74L160.79-24.42Q160.79-12.80 153.01-6.40Q145.22 0 132.81 0M114.33-76.56L114.33-54.38L130.43-54.38Q135.85-54.38 139.34-57.16Q142.84-59.93 142.84-64.81L142.84-66.13Q142.84-71.15 139.41-73.85Q135.98-76.56 130.43-76.56L114.33-76.56M114.33-38.54L114.33-15.84L130.70-15.84Q136.37-15.84 139.87-18.61Q143.37-21.38 143.37-26.53L143.37-27.85Q143.37-33 139.94-35.77Q136.51-38.54 130.70-38.54" class="l" style="--i:1" fill="#0A0A0A" /><path d="M187.48 0L170.05 0L170.05-92.40L187.48-92.40L187.48-54.25L221.80-54.25L221.80-92.40L239.22-92.40L239.22 0L221.80 0L221.80-38.41L187.48-38.41" class="l" style="--i:2" fill="#0A0A0A" /><path d="M269.07 0L251.64 0L251.64-92.40L269.07-92.40" class="l" style="--i:3" fill="#0A0A0A" /><path d="M298.65 0L281.49 0L281.49-92.40L314.62-92.40L332.97-11.88L335.35-11.88L335.35-92.40L352.51-92.40L352.51 0L319.38 0L301.03-80.52L298.65-80.52" class="l" style="--i:4" fill="#0A0A0A" /><path d="M376.55 0L358.60 0L382.88-92.40L413.24-92.40L437.53 0L419.58 0L414.56-20.33L381.56-20.33L376.55 0M396.88-81.44L385.66-36.43L410.47-36.43L399.25-81.44" class="l" style="--i:5" fill="#0A0A0A" /><path d="M484.53 0L454.70 0L431.21-92.40L449.16-92.40L468.69-11.22L470.54-11.22L490.08-92.40L508.03-92.40" class="l" style="--i:6" fill="#0A0A0A" /><path d="M551.10 0L533.15 0L557.43-92.40L587.79-92.40L612.08 0L594.13 0L589.11-20.33L556.11-20.33L551.10 0M571.43-81.44L560.21-36.43L585.02-36.43L573.80-81.44" class="l" style="--i:7" fill="#0A0A0A" /><path d="M635.33 0L618.17 0L618.17-92.40L651.30-92.40L669.65-11.88L672.03-11.88L672.03-92.40L689.19-92.40L689.19 0L656.06 0L637.71-80.52L635.33-80.52" class="l" style="--i:8" fill="#0A0A0A" /><path d="M719.04 0L701.61 0L701.61-92.40L719.04-92.40" class="l" style="--i:9" fill="#0A0A0A" /><path d="M791.12 0L731.45 0L731.45-92.40L748.88-92.40L748.88-15.84L791.12-15.84" class="l" style="--i:10" fill="#0A0A0A" /></g>
+
+<g class="rail-b">
+  <text x="1216" y="150" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="500" letter-spacing="3.4" fill="#5F5F5F" fill-opacity="1" text-anchor="end" xml:space="preserve">REPOSITORIES</text>
+  <text x="1216" y="238" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="500" letter-spacing="2.6" fill="#5F5F5F" fill-opacity="1" text-anchor="end" xml:space="preserve">PUBLIC · TRACKED</text>
+</g>
+<g transform="translate(1119.504 214)"><path d="M24.62 1.06Q15.20 1.06 9.50-4.14Q3.80-9.35 3.80-19.91L3.80-33.29Q3.80-43.55 9.50-48.91Q15.20-54.26 24.62-54.26Q34.12-54.26 39.79-48.91Q45.45-43.55 45.45-33.29L45.45-19.91Q45.45-9.35 39.79-4.14Q34.12 1.06 24.62 1.06M24.62-7.60Q30.32-7.60 33.02-10.72Q35.72-13.83 35.72-19.61L35.72-33.74Q35.72-39.60 32.72-42.60Q29.72-45.60 24.62-45.60Q19.38-45.60 16.45-42.48Q13.53-39.37 13.53-33.74L13.53-19.61Q13.53-7.60 24.62-7.60M71.87 1.06Q62.45 1.06 56.75-4.14Q51.05-9.35 51.05-19.91L51.05-33.29Q51.05-43.55 56.75-48.91Q62.45-54.26 71.87-54.26Q81.37-54.26 87.04-48.91Q92.70-43.55 92.70-33.29L92.70-19.91Q92.70-9.35 87.04-4.14Q81.37 1.06 71.87 1.06M71.87-7.60Q77.57-7.60 80.27-10.72Q82.97-13.83 82.97-19.61L82.97-33.74Q82.97-39.60 79.97-42.60Q76.97-45.60 71.87-45.60Q66.63-45.60 63.70-42.48Q60.78-39.37 60.78-33.74L60.78-19.61Q60.78-7.60 71.87-7.60" class="cnt c0" fill="#0A0A0A" /><path d="M24.62 1.06Q15.20 1.06 9.50-4.14Q3.80-9.35 3.80-19.91L3.80-33.29Q3.80-43.55 9.50-48.91Q15.20-54.26 24.62-54.26Q34.12-54.26 39.79-48.91Q45.45-43.55 45.45-33.29L45.45-19.91Q45.45-9.35 39.79-4.14Q34.12 1.06 24.62 1.06M24.62-7.60Q30.32-7.60 33.02-10.72Q35.72-13.83 35.72-19.61L35.72-33.74Q35.72-39.60 32.72-42.60Q29.72-45.60 24.62-45.60Q19.38-45.60 16.45-42.48Q13.53-39.37 13.53-33.74L13.53-19.61Q13.53-7.60 24.62-7.60M76.59 0L66.86 0L66.86-46.06L65.49-46.06L58.35-29.18L48.16-29.18L59.03-53.20L76.59-53.20" class="cnt c1" fill="#0A0A0A" /><path d="M24.62 1.06Q15.20 1.06 9.50-4.14Q3.80-9.35 3.80-19.91L3.80-33.29Q3.80-43.55 9.50-48.91Q15.20-54.26 24.62-54.26Q34.12-54.26 39.79-48.91Q45.45-43.55 45.45-33.29L45.45-19.91Q45.45-9.35 39.79-4.14Q34.12 1.06 24.62 1.06M24.62-7.60Q30.32-7.60 33.02-10.72Q35.72-13.83 35.72-19.61L35.72-33.74Q35.72-39.60 32.72-42.60Q29.72-45.60 24.62-45.60Q19.38-45.60 16.45-42.48Q13.53-39.37 13.53-33.74L13.53-19.61Q13.53-7.60 24.62-7.60M89.05 0L50.44 0L50.44-6.38Q50.44-11.93 52.27-15.62Q54.09-19.30 57.55-21.70Q61.01-24.09 66.02-25.61L71.11-27.21Q75.29-28.50 77.54-30.93Q79.78-33.36 79.78-37.01L79.78-37.32Q79.78-41.12 77.19-43.36Q74.61-45.60 70.13-45.60Q65.72-45.60 63.02-43.21Q60.32-40.81 60.32-36.33L60.32-34.96L50.59-34.96L50.59-36.18Q50.59-41.95 53.18-45.98Q55.76-50.01 60.21-52.14Q64.65-54.26 70.13-54.26Q75.60-54.26 80.01-52.17Q84.41-50.08 86.96-46.32Q89.51-42.56 89.51-37.47L89.51-36.71Q89.51-31.62 87.42-28.08Q85.33-24.55 81.75-22.31Q78.18-20.06 73.62-18.62L68.76-17.10Q63.89-15.58 62.15-13.72Q60.40-11.86 60.40-8.97L60.40-8.66L89.05-8.66" class="cnt c2" fill="#0A0A0A" /><path d="M24.62 1.06Q15.20 1.06 9.50-4.14Q3.80-9.35 3.80-19.91L3.80-33.29Q3.80-43.55 9.50-48.91Q15.20-54.26 24.62-54.26Q34.12-54.26 39.79-48.91Q45.45-43.55 45.45-33.29L45.45-19.91Q45.45-9.35 39.79-4.14Q34.12 1.06 24.62 1.06M24.62-7.60Q30.32-7.60 33.02-10.72Q35.72-13.83 35.72-19.61L35.72-33.74Q35.72-39.60 32.72-42.60Q29.72-45.60 24.62-45.60Q19.38-45.60 16.45-42.48Q13.53-39.37 13.53-33.74L13.53-19.61Q13.53-7.60 24.62-7.60M70.35 1.06Q64.35 1.06 59.71-1.06Q55.08-3.19 52.46-7.18Q49.83-11.17 49.83-16.64L49.83-18.01L59.56-18.01L59.56-16.95Q59.56-12.69 62.53-10.15Q65.49-7.60 70.35-7.60Q75.29-7.60 77.99-9.96Q80.69-12.31 80.69-15.88L80.69-16.64Q80.69-20.29 78.07-21.93Q75.45-23.56 71.57-23.56L60.93-23.56L60.93-34.20L78.11-43.32L78.11-44.54L51.20-44.54L51.20-53.20L88.90-53.20L88.90-40.28L72.86-31.77L72.86-30.55L75.67-30.55Q79.25-30.55 82.63-29.11Q86.01-27.66 88.21-24.66Q90.42-21.66 90.42-16.87L90.42-15.96Q90.42-10.79 87.91-6.95Q85.40-3.12 80.88-1.03Q76.36 1.06 70.35 1.06" class="cnt c3" fill="#0A0A0A" /><path d="M24.62 1.06Q15.20 1.06 9.50-4.14Q3.80-9.35 3.80-19.91L3.80-33.29Q3.80-43.55 9.50-48.91Q15.20-54.26 24.62-54.26Q34.12-54.26 39.79-48.91Q45.45-43.55 45.45-33.29L45.45-19.91Q45.45-9.35 39.79-4.14Q34.12 1.06 24.62 1.06M24.62-7.60Q30.32-7.60 33.02-10.72Q35.72-13.83 35.72-19.61L35.72-33.74Q35.72-39.60 32.72-42.60Q29.72-45.60 24.62-45.60Q19.38-45.60 16.45-42.48Q13.53-39.37 13.53-33.74L13.53-19.61Q13.53-7.60 24.62-7.60M85.10 0L75.37 0L75.37-10.79L49.23-10.79L49.23-22.04L67.62-53.20L85.10-53.20L85.10-19.46L93.91-19.46L93.91-10.79L85.10-10.79L85.10 0M58.50-20.67L58.50-19.46L75.37-19.46L75.37-46.97L74-46.97" class="cnt c4 cnt-last" fill="#0A0A0A" /></g>
+
+<g class="accent-rule"><rect x="64" y="242" width="248" height="4" fill="#E8380F" /></g>
+<g clip-path="url(#roleClip)"><text x="64" y="288" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="19" font-weight="600" letter-spacing="7" fill="#C42B08" fill-opacity="1" text-anchor="start" xml:space="preserve">CREATIVE TECHNOLOGIST</text></g>
+<g class="tag"><text x="64" y="318" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14.5" font-weight="400" letter-spacing="0.4" fill="#5F5F5F" fill-opacity="1" text-anchor="start" xml:space="preserve">Motion, interfaces, and small tools that do one thing well.</text></g>
+
+<g class="hr"><rect x="64" y="340.5" width="1152" height="1" fill="rgba(10,10,10,0.14)" /></g>
+<g class="rail-b">
+  <text x="64" y="364" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" font-weight="500" letter-spacing="2.4" fill="#5F5F5F" fill-opacity="1" text-anchor="start" xml:space="preserve">TYPESCRIPT  ·  JAVASCRIPT  ·  PYTHON</text>
+  <text x="1216" y="364" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" font-weight="500" letter-spacing="2.4" fill="#5F5F5F" fill-opacity="1" text-anchor="end" xml:space="preserve">8 DAY STREAK  ↻</text>
+</g>
+</svg>

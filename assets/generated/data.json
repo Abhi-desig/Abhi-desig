@@ -1,0 +1,249 @@
+{
+  "user": {
+    "name": "Abhinav Anil",
+    "login": "Abhi-desig",
+    "role": "Creative Technologist",
+    "tagline": "Motion, interfaces, and small tools that do one thing well.",
+    "followers": 2
+  },
+  "repos": [
+    {
+      "name": "GitDNA-",
+      "displayName": "GitDNA",
+      "blurb": "Reads a repository's commit history and renders its shape — who touched what, and when.",
+      "description": "",
+      "url": "https://github.com/Abhi-desig/GitDNA-",
+      "live": "",
+      "stars": 0,
+      "forks": 0,
+      "pushedAt": "2026-08-08T05:44:26Z",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "topics": [],
+      "languages": [
+        {
+          "name": "Python",
+          "size": 60754,
+          "color": "#3572A5"
+        },
+        {
+          "name": "HTML",
+          "size": 3533,
+          "color": "#e34c26"
+        },
+        {
+          "name": "JavaScript",
+          "size": 2677,
+          "color": "#f1e05a"
+        },
+        {
+          "name": "Dockerfile",
+          "size": 659,
+          "color": "#384d54"
+        }
+      ]
+    },
+    {
+      "name": "Gesture",
+      "displayName": "Gesture",
+      "blurb": "Your hands drive macOS. MediaPipe watches, Node decides, Swift presses the keys.",
+      "description": "A gesture-powered macOS companion where AI watches your hand, Chrome sees the motion, Node makes the decisions, Swift presses the keys, and Rust quietly keeps everything alive. No clicks. Just vibes and surprisingly cooperative software.",
+      "url": "https://github.com/Abhi-desig/Gesture",
+      "live": "",
+      "stars": 0,
+      "forks": 0,
+      "pushedAt": "2026-08-07T06:46:13Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "topics": [
+        "jarvis-ai",
+        "macos",
+        "mediapipe",
+        "mediapipe-hands"
+      ],
+      "languages": [
+        {
+          "name": "JavaScript",
+          "size": 208100,
+          "color": "#f1e05a"
+        },
+        {
+          "name": "Swift",
+          "size": 25637,
+          "color": "#F05138"
+        },
+        {
+          "name": "Rust",
+          "size": 13397,
+          "color": "#dea584"
+        },
+        {
+          "name": "CSS",
+          "size": 5293,
+          "color": "#663399"
+        },
+        {
+          "name": "HTML",
+          "size": 2525,
+          "color": "#e34c26"
+        }
+      ]
+    },
+    {
+      "name": "Prompt-Vault",
+      "displayName": "Prompt-Vault",
+      "blurb": "Version control for prompts. Every edit is immutable, nothing is ever lost.",
+      "description": "PromptVault is a version-controlled AI prompt manager that lets you save, organize, search, compare, and restore prompts without ever losing previous edits. Every change creates an immutable version, giving you a complete history of your prompt evolution.",
+      "url": "https://github.com/Abhi-desig/Prompt-Vault",
+      "live": "https://promptvault-alpha-five.vercel.app",
+      "stars": 0,
+      "forks": 0,
+      "pushedAt": "2026-08-05T05:12:36Z",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "topics": [
+        "library"
+      ],
+      "languages": [
+        {
+          "name": "TypeScript",
+          "size": 165851,
+          "color": "#3178c6"
+        },
+        {
+          "name": "CSS",
+          "size": 820,
+          "color": "#663399"
+        },
+        {
+          "name": "JavaScript",
+          "size": 146,
+          "color": "#f1e05a"
+        }
+      ]
+    },
+    {
+      "name": "Creative-Brief-Doctor",
+      "displayName": "Creative-Brief-Doctor",
+      "blurb": "Scores a creative brief, finds the gaps, and asks the questions you forgot to.",
+      "description": "Creative Brief Doctor is an AI-powered tool that scores creative briefs, identifies gaps, and generates actionable follow-up questions in a shareable report.",
+      "url": "https://github.com/Abhi-desig/Creative-Brief-Doctor",
+      "live": "https://creative-brief-doctor-web.vercel.app/",
+      "stars": 0,
+      "forks": 0,
+      "pushedAt": "2026-08-03T12:56:33Z",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "topics": [
+        "ai",
+        "generative-ai",
+        "nextjs",
+        "reportgeneration",
+        "typescript"
+      ],
+      "languages": [
+        {
+          "name": "TypeScript",
+          "size": 728855,
+          "color": "#3178c6"
+        },
+        {
+          "name": "JavaScript",
+          "size": 62165,
+          "color": "#f1e05a"
+        },
+        {
+          "name": "Shell",
+          "size": 57080,
+          "color": "#89e051"
+        },
+        {
+          "name": "CSS",
+          "size": 15571,
+          "color": "#663399"
+        },
+        {
+          "name": "PLpgSQL",
+          "size": 3652,
+          "color": "#336790"
+        },
+        {
+          "name": "Dockerfile",
+          "size": 1980,
+          "color": "#384d54"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "repoCount": 4,
+    "stars": 0,
+    "contributions": 75,
+    "commits": 59,
+    "current": 8,
+    "longest": 8,
+    "lastPush": "2026-08-08",
+    "languages": [
+      {
+        "name": "TypeScript",
+        "size": 894706,
+        "color": "#3178c6",
+        "pct": 65.85039320818873
+      },
+      {
+        "name": "JavaScript",
+        "size": 273088,
+        "color": "#f1e05a",
+        "pct": 20.099286447657494
+      },
+      {
+        "name": "Python",
+        "size": 60754,
+        "color": "#3572A5",
+        "pct": 4.471496546318343
+      },
+      {
+        "name": "Shell",
+        "size": 57080,
+        "color": "#89e051",
+        "pct": 4.201090016523208
+      },
+      {
+        "name": "Swift",
+        "size": 25637,
+        "color": "#F05138",
+        "pct": 1.8868841057043708
+      },
+      {
+        "name": "CSS",
+        "size": 21684,
+        "color": "#663399",
+        "pct": 1.59594316605272
+      },
+      {
+        "name": "Rust",
+        "size": 13397,
+        "color": "#dea584",
+        "pct": 0.9860196732894433
+      },
+      {
+        "name": "HTML",
+        "size": 6058,
+        "color": "#e34c26",
+        "pct": 0.44586901401712675
+      },
+      {
+        "name": "PLpgSQL",
+        "size": 3652,
+        "color": "#336790",
+        "pct": 0.2687873290179179
+      },
+      {
+        "name": "Dockerfile",
+        "size": 2639,
+        "color": "#384d54",
+        "pct": 0.19423049323063674
+      }
+    ]
+  }
+}

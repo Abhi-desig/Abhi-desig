@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="168" viewBox="0 0 420 168" fill="none" role="img" aria-label="Prompt-Vault — TypeScript">
+<title>Prompt-Vault — TypeScript</title>
+<desc>Version control for prompts. Every edit is immutable, nothing is ever lost.</desc>
+<style>
+  
+    text{dominant-baseline:auto}
+    @media (prefers-reduced-motion:reduce){
+      *{animation:none!important;opacity:1!important;transform:none!important}
+      
+    }
+  
+  .bar{transform:scaleY(0);transform-origin:0 168px;animation:bar 6s cubic-bezier(.22,1,.36,1) infinite;animation-delay:0.24s}
+  @keyframes bar{
+    0%,4%{transform:scaleY(0)}
+    16%,88%{transform:scaleY(1)}
+    97%,100%{transform:scaleY(0)}
+  }
+
+  .frame{opacity:0;animation:fr 6s cubic-bezier(.22,1,.36,1) infinite;animation-delay:0.24s}
+  @keyframes fr{0%,2%{opacity:0}14%,90%{opacity:1}98%,100%{opacity:0}}
+
+  .cl{opacity:0;animation:cl 6s cubic-bezier(.22,1,.36,1) infinite;animation-delay:calc(0.24s + var(--i)*22ms)}
+  @keyframes cl{
+    0%,4.667%{opacity:0;transform:translateY(14px)}
+    14.167%,86.667%{opacity:1;transform:translateY(0)}
+    95.833%,100%{opacity:0}
+  }
+
+  .cb{opacity:0;animation:cb 6s cubic-bezier(.22,1,.36,1) infinite;animation-delay:calc(0.24s + var(--i)*80ms)}
+  @keyframes cb{
+    0%,11.667%{opacity:0;transform:translateY(7px)}
+    20.000%,86.667%{opacity:1;transform:translateY(0)}
+    95.833%,100%{opacity:0}
+  }
+
+  .cc{opacity:0;animation:cc 6s cubic-bezier(.22,1,.36,1) infinite;animation-delay:calc(0.24s + var(--i)*70ms)}
+  @keyframes cc{
+    0%,18.333%{opacity:0;transform:translateY(6px)}
+    26.667%,86.667%{opacity:1;transform:translateY(0)}
+    95.833%,100%{opacity:0}
+  }
+
+  /* The bar keeps a slow breath through the hold so the grid never dies. */
+  .glow{transform-box:fill-box;transform-origin:center;animation:glow 3.2s cubic-bezier(.4,0,.2,1) infinite}
+  @keyframes glow{0%,100%{opacity:.95}50%{opacity:.45}}
+
+  .dot{transform-box:fill-box;transform-origin:center;animation:dot 3.2s cubic-bezier(.4,0,.2,1) infinite}
+  @keyframes dot{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(.76);opacity:.55}}
+  </style>
+<rect width="420" height="168" fill="#FAFAF8" />
+<g class="frame"><rect x="0.5" y="0.5" width="419" height="167" rx="3" stroke="rgba(10,10,10,0.14)" fill="none" /></g>
+<g class="bar"><rect x="0" y="0" width="4" height="168" fill="#3178c6" class="glow" /></g>
+
+<g transform="translate(36 56)"><path d="M5.35 0L1.78 0L1.78-18.90L9.56-18.90Q11.34-18.90 12.70-18.18Q14.07-17.47 14.84-16.17Q15.61-14.88 15.61-13.10L15.61-12.72Q15.61-10.96 14.81-9.65Q14.01-8.34 12.65-7.63Q11.29-6.91 9.56-6.91L5.35-6.91L5.35 0M5.35-15.66L5.35-10.15L9.21-10.15Q10.48-10.15 11.26-10.85Q12.04-11.56 12.04-12.77L12.04-13.04Q12.04-14.26 11.26-14.96Q10.48-15.66 9.21-15.66" class="cl" style="--i:0" fill="#0A0A0A" /><path d="M20.76 0L17.19 0L17.19-18.90L25.40-18.90Q27.18-18.90 28.51-18.28Q29.83-17.66 30.56-16.52Q31.29-15.39 31.29-13.85L31.29-13.53Q31.29-11.83 30.48-10.77Q29.67-9.72 28.48-9.23L28.48-8.75Q29.56-8.69 30.15-8.01Q30.75-7.32 30.75-6.18L30.75 0L27.18 0L27.18-5.67Q27.18-6.32 26.84-6.72Q26.51-7.13 25.72-7.13L20.76-7.13L20.76 0M20.76-15.66L20.76-10.37L25.02-10.37Q26.29-10.37 27.01-11.06Q27.72-11.74 27.72-12.88L27.72-13.15Q27.72-14.28 27.02-14.97Q26.32-15.66 25.02-15.66" class="cl" style="--i:1" fill="#0A0A0A" /><path d="M40.70 0.38Q37.13 0.38 35.03-1.58Q32.92-3.54 32.92-7.18L32.92-11.72Q32.92-15.36 35.03-17.32Q37.13-19.28 40.70-19.28Q44.26-19.28 46.37-17.32Q48.47-15.36 48.47-11.72L48.47-7.18Q48.47-3.54 46.37-1.58Q44.26 0.38 40.70 0.38M40.70-2.81Q42.69-2.81 43.80-3.97Q44.91-5.13 44.91-7.07L44.91-11.83Q44.91-13.77 43.80-14.93Q42.69-16.09 40.70-16.09Q38.73-16.09 37.60-14.93Q36.48-13.77 36.48-11.83L36.48-7.07Q36.48-5.13 37.60-3.97Q38.73-2.81 40.70-2.81" class="cl" style="--i:2" fill="#0A0A0A" /><path d="M54.16 0L50.70 0L50.70-18.90L57.32-18.90L60.58-2.43L61.07-2.43L64.34-18.90L70.95-18.90L70.95 0L67.50 0L67.50-16.28L67.01-16.28L63.77 0L57.88 0L54.64-16.28L54.16-16.28" class="cl" style="--i:3" fill="#0A0A0A" /><path d="M77.19 0L73.62 0L73.62-18.90L81.40-18.90Q83.18-18.90 84.54-18.18Q85.91-17.47 86.68-16.17Q87.45-14.88 87.45-13.10L87.45-12.72Q87.45-10.96 86.65-9.65Q85.85-8.34 84.49-7.63Q83.13-6.91 81.40-6.91L77.19-6.91L77.19 0M77.19-15.66L77.19-10.15L81.05-10.15Q82.32-10.15 83.10-10.85Q83.88-11.56 83.88-12.77L83.88-13.04Q83.88-14.26 83.10-14.96Q82.32-15.66 81.05-15.66" class="cl" style="--i:4" fill="#0A0A0A" /><path d="M96.91 0L93.35 0L93.35-15.66L87.84-15.66L87.84-18.90L102.42-18.90L102.42-15.66L96.91-15.66" class="cl" style="--i:5" fill="#0A0A0A" /><path d="M109.95-5.35L101.96-5.35L101.96-8.42L109.95-8.42" class="cl" style="--i:6" fill="#0A0A0A" /><path d="M121.30 0L115.20 0L110.40-18.90L114.07-18.90L118.06-2.29L118.44-2.29L122.44-18.90L126.11-18.90" class="cl" style="--i:7" fill="#0A0A0A" /><path d="M128.61 0L124.94 0L129.90-18.90L136.11-18.90L141.08 0L137.41 0L136.38-4.16L129.63-4.16L128.61 0M132.77-16.66L130.47-7.45L135.55-7.45L133.25-16.66" class="cl" style="--i:8" fill="#0A0A0A" /><path d="M149.47 0.38Q145.99 0.38 144.03-1.51Q142.07-3.40 142.07-6.64L142.07-18.90L145.64-18.90L145.64-6.53Q145.64-4.81 146.62-3.81Q147.61-2.81 149.47-2.81Q151.34-2.81 152.32-3.81Q153.31-4.81 153.31-6.53L153.31-18.90L156.87-18.90L156.87-6.64Q156.87-3.40 154.91-1.51Q152.96 0.38 149.47 0.38" class="cl" style="--i:9" fill="#0A0A0A" /><path d="M171.63 0L159.42 0L159.42-18.90L162.99-18.90L162.99-3.24L171.63-3.24" class="cl" style="--i:10" fill="#0A0A0A" /><path d="M178.51 0L174.95 0L174.95-15.66L169.44-15.66L169.44-18.90L184.02-18.90L184.02-15.66L178.51-15.66" class="cl" style="--i:11" fill="#0A0A0A" /></g>
+
+<g class="frame">
+  <circle cx="311.0" cy="50" r="4" fill="#3178c6" class="dot" />
+  <text x="398" y="54" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="500" letter-spacing="1.4" fill="#5F5F5F" fill-opacity="1" text-anchor="end" xml:space="preserve">TYPESCRIPT</text>
+</g>
+
+<text style="--i:0" x="36" y="92" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" letter-spacing="0.1" fill="#5F5F5F" fill-opacity="1" text-anchor="start" class="cb" xml:space="preserve">Version control for prompts. Every edit is</text><text style="--i:1" x="36" y="109" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" letter-spacing="0.1" fill="#5F5F5F" fill-opacity="1" text-anchor="start" class="cb" xml:space="preserve">immutable, nothing is ever lost.</text>
+<g class="cc" style="--i:0"><rect x="36" y="126" width="58.7" height="19" rx="2" fill="rgba(10,10,10,0.05)" /><text x="44" y="139.5" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9.5" font-weight="500" letter-spacing="1.1" fill="#5F5F5F" fill-opacity="1" text-anchor="start" xml:space="preserve">LIBRARY</text></g>
+
+<g class="frame">
+  <text x="398" y="139.5" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="600" letter-spacing="1.5" fill="#C42B08" fill-opacity="1" text-anchor="end" xml:space="preserve">↗ LIVE</text>
+</g>
+</svg>
