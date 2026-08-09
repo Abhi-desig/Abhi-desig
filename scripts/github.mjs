@@ -198,6 +198,14 @@ export async function fetchProfile(login, token, config = {}) {
   const cal = user.contributionsCollection.contributionCalendar;
   const days = cal.weeks.flatMap((w) => w.contributionDays);
 
+  // Freshness is reported as the most recent push across all repos, not as
+  // wall-clock "now". Rendering the current time would make every build differ
+  // from the last even when nothing about the profile changed, so the Action's
+  // commit-only-on-change guard would never fire and it would commit four
+  // times a day forever — inflating the very contribution streak this page
+  // reports. Derived from data, the output is stable until the data moves.
+  const lastPush = repos.reduce((a, r) => (r.pushedAt > a ? r.pushedAt : a), '');
+
   return {
     user: {
       name: config.name || user.name || user.login,
@@ -214,8 +222,8 @@ export async function fetchProfile(login, token, config = {}) {
       commits: user.contributionsCollection.totalCommitContributions,
       ...streaks(days),
       days,
+      lastPush: lastPush ? lastPush.slice(0, 10) : '',
       languages: languageSplit(repos),
     },
-    generatedAt: new Date().toISOString(),
   };
 }

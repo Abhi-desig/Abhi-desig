@@ -104,7 +104,7 @@ export function stats({ data, theme, fonts }) {
     })
     .join('');
 
-  const updated = `SELF-COMPUTED · ${data.generatedAt.slice(0, 10)}`;
+  const updated = s.lastPush ? `SELF-COMPUTED · LAST PUSH ${s.lastPush}` : 'SELF-COMPUTED · NO THIRD PARTY';
   const updatedDotX = RIGHT - S.monoWidth(updated, 11.5, 2.2) - 13;
 
   const css = `

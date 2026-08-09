@@ -92,7 +92,7 @@ const section = (g) => {
 
 const summary = data
   ? `<p class="meta">${data.repos?.length ?? 0} repos · ${data.stats?.contributions ?? 0} contributions ·
-     ${data.stats?.current ?? 0} day streak · generated ${data.generatedAt?.slice(0, 19).replace('T', ' ') ?? '—'}</p>`
+     ${data.stats?.current ?? 0} day streak · last push ${data.stats?.lastPush ?? '—'}</p>`
   : '';
 
 const html = `<!doctype html>

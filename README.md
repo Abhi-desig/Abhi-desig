@@ -94,9 +94,9 @@ Small tools, mostly at the seam between AI and creative work. I build rough, shi
 
 <!-- STATS:START -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/stats-dark.svg?v=81d3c57271" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/stats-light.svg?v=336d34b911" />
-  <img alt="75 contributions, 8 day streak, 4 public repos" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/stats-dark.svg?v=81d3c57271" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/stats-dark.svg?v=23986edc28" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/stats-light.svg?v=1240bfe3d9" />
+  <img alt="75 contributions, 8 day streak, 4 public repos" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/motion-preview/assets/generated/stats-dark.svg?v=23986edc28" width="100%" />
 </picture>
 <!-- STATS:END -->
 

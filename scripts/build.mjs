@@ -159,10 +159,11 @@ async function main() {
 
   // Snapshot for the preview harness and for eyeballing what the API returned.
   // The 365-day calendar is dropped — it's an implementation detail of the
-  // streak maths, not something worth committing on every run.
+  // streak maths, and it shifts every day as the rolling window moves, which
+  // would make this file differ on every build regardless of real activity.
   writeFileSync(
     join(OUT, 'data.json'),
-    JSON.stringify({ ...data, stats: { ...data.stats, days: undefined } }, null, 2),
+    `${JSON.stringify({ ...data, stats: { ...data.stats, days: undefined } }, null, 2)}\n`,
   );
 }
 
