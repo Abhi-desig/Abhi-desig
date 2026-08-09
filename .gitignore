@@ -1,0 +1,4 @@
+node_modules/
+
+# Local iteration harness — regenerate with `npm run preview`.
+preview.html

@@ -1,0 +1,36 @@
+{
+  "_readme": "The only file you need to edit by hand. Everything else is generated. Leave a link empty and it simply won't render — no broken placeholders.",
+
+  "name": "Abhinav Anil",
+  "role": "Creative Technologist",
+  "tagline": "Motion, interfaces, and small tools that do one thing well.",
+  "location": "",
+
+  "links": {
+    "portfolio": "",
+    "linkedin": "",
+    "x": "",
+    "instagram": "",
+    "email": ""
+  },
+
+  "_hide": "Repo names listed here never appear on the profile.",
+  "hide": [],
+
+  "_overrides": "Per-repo tweaks. displayName cleans up an awkward repo name; blurb replaces the GitHub description on the card only.",
+  "overrides": {
+    "GitDNA-": {
+      "displayName": "GitDNA",
+      "blurb": "Reads a repository's commit history and renders its shape — who touched what, and when."
+    },
+    "Gesture": {
+      "blurb": "Your hands drive macOS. MediaPipe watches, Node decides, Swift presses the keys."
+    },
+    "Creative-Brief-Doctor": {
+      "blurb": "Scores a creative brief, finds the gaps, and asks the questions you forgot to."
+    },
+    "Prompt-Vault": {
+      "blurb": "Version control for prompts. Every edit is immutable, nothing is ever lost."
+    }
+  }
+}

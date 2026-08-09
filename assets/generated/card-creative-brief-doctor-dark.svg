@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="168" viewBox="0 0 420 168" fill="none" role="img" aria-label="Creative-Brief-Doctor — TypeScript">
+<title>Creative-Brief-Doctor — TypeScript</title>
+<desc>Scores a creative brief, finds the gaps, and asks the questions you forgot to.</desc>
+<style>
+  
+    text{dominant-baseline:auto}
+    @media (prefers-reduced-motion:reduce){
+      *{animation:none!important;opacity:1!important;transform:none!important}
+      
+    }
+  
+  .bar{transform:scaleY(0);transform-origin:0 168px;animation:bar 6s cubic-bezier(.22,1,.36,1) infinite;animation-delay:0.36s}
+  @keyframes bar{
+    0%,4%{transform:scaleY(0)}
+    16%,88%{transform:scaleY(1)}
+    97%,100%{transform:scaleY(0)}
+  }
+
+  .frame{opacity:0;animation:fr 6s cubic-bezier(.22,1,.36,1) infinite;animation-delay:0.36s}
+  @keyframes fr{0%,2%{opacity:0}14%,90%{opacity:1}98%,100%{opacity:0}}
+
+  .cl{opacity:0;animation:cl 6s cubic-bezier(.22,1,.36,1) infinite;animation-delay:calc(0.36s + var(--i)*22ms)}
+  @keyframes cl{
+    0%,4.667%{opacity:0;transform:translateY(14px)}
+    14.167%,86.667%{opacity:1;transform:translateY(0)}
+    95.833%,100%{opacity:0}
+  }
+
+  .cb{opacity:0;animation:cb 6s cubic-bezier(.22,1,.36,1) infinite;animation-delay:calc(0.36s + var(--i)*80ms)}
+  @keyframes cb{
+    0%,11.667%{opacity:0;transform:translateY(7px)}
+    20.000%,86.667%{opacity:1;transform:translateY(0)}
+    95.833%,100%{opacity:0}
+  }
+
+  .cc{opacity:0;animation:cc 6s cubic-bezier(.22,1,.36,1) infinite;animation-delay:calc(0.36s + var(--i)*70ms)}
+  @keyframes cc{
+    0%,18.333%{opacity:0;transform:translateY(6px)}
+    26.667%,86.667%{opacity:1;transform:translateY(0)}
+    95.833%,100%{opacity:0}
+  }
+
+  /* The bar keeps a slow breath through the hold so the grid never dies. */
+  .glow{transform-box:fill-box;transform-origin:center;animation:glow 3.2s cubic-bezier(.4,0,.2,1) infinite}
+  @keyframes glow{0%,100%{opacity:.95}50%{opacity:.45}}
+
+  .dot{transform-box:fill-box;transform-origin:center;animation:dot 3.2s cubic-bezier(.4,0,.2,1) infinite}
+  @keyframes dot{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(.76);opacity:.55}}
+  </style>
+<rect width="420" height="168" fill="#0A0A0A" />
+<g class="frame"><rect x="0.5" y="0.5" width="419" height="167" rx="3" stroke="rgba(250,250,250,0.11)" fill="none" /></g>
+<g class="bar"><rect x="0" y="0" width="4" height="168" fill="#3178c6" class="glow" /></g>
+
+<g transform="translate(36 56)"><path d="M7.64 0.32Q4.65 0.32 2.90-1.35Q1.15-3.01 1.15-6.12L1.15-9.98Q1.15-13.09 2.90-14.75Q4.65-16.42 7.64-16.42Q10.60-16.42 12.22-14.80Q13.85-13.18 13.85-10.35L13.85-10.21L10.86-10.21L10.86-10.44Q10.86-11.87 10.06-12.79Q9.27-13.71 7.64-13.71Q6.03-13.71 5.11-12.72Q4.19-11.73 4.19-10.03L4.19-6.07Q4.19-4.39 5.11-3.39Q6.03-2.39 7.64-2.39Q9.27-2.39 10.06-3.32Q10.86-4.25 10.86-5.66L10.86-6.07L13.85-6.07L13.85-5.75Q13.85-2.92 12.22-1.30Q10.60 0.32 7.64 0.32" class="cl" style="--i:0" fill="#FAFAFA" /><path d="M18.46 0L15.43 0L15.43-16.10L22.42-16.10Q23.94-16.10 25.06-15.57Q26.19-15.04 26.81-14.08Q27.43-13.11 27.43-11.80L27.43-11.52Q27.43-10.07 26.74-9.18Q26.05-8.28 25.04-7.87L25.04-7.45Q25.96-7.41 26.47-6.82Q26.97-6.23 26.97-5.27L26.97 0L23.94 0L23.94-4.83Q23.94-5.38 23.65-5.73Q23.36-6.07 22.70-6.07L18.46-6.07L18.46 0M18.46-13.34L18.46-8.83L22.10-8.83Q23.18-8.83 23.79-9.42Q24.40-10 24.40-10.97L24.40-11.20Q24.40-12.17 23.80-12.75Q23.20-13.34 22.10-13.34" class="cl" style="--i:1" fill="#FAFAFA" /><path d="M39.56 0L29.07 0L29.07-16.10L39.42-16.10L39.42-13.34L32.10-13.34L32.10-9.50L38.77-9.50L38.77-6.74L32.10-6.74L32.10-2.76L39.56-2.76" class="cl" style="--i:2" fill="#FAFAFA" /><path d="M42.93 0L39.80 0L44.04-16.10L49.33-16.10L53.56 0L50.43 0L49.56-3.54L43.81-3.54L42.93 0M46.47-14.19L44.52-6.35L48.84-6.35L46.89-14.19" class="cl" style="--i:3" fill="#FAFAFA" /><path d="M59.88 0L56.84 0L56.84-13.34L52.15-13.34L52.15-16.10L64.57-16.10L64.57-13.34L59.88-13.34" class="cl" style="--i:4" fill="#FAFAFA" /><path d="M68.77 0L65.74 0L65.74-16.10L68.77-16.10" class="cl" style="--i:5" fill="#FAFAFA" /><path d="M79.11 0L73.91 0L69.81-16.10L72.94-16.10L76.35-1.96L76.67-1.96L80.07-16.10L83.20-16.10" class="cl" style="--i:6" fill="#FAFAFA" /><path d="M94.72 0L84.23 0L84.23-16.10L94.58-16.10L94.58-13.34L87.26-13.34L87.26-9.50L93.93-9.50L93.93-6.74L87.26-6.74L87.26-2.76L94.72-2.76" class="cl" style="--i:7" fill="#FAFAFA" /><path d="M102.92-4.55L96.11-4.55L96.11-7.18L102.92-7.18" class="cl" style="--i:8" fill="#FAFAFA" /><path d="M113.02 0L104.65 0L104.65-2.67L106.76-2.67L106.76-13.43L104.65-13.43L104.65-16.10L112.93-16.10Q115.14-16.10 116.47-15.01Q117.80-13.91 117.80-12.03L117.80-11.80Q117.80-10.70 117.39-9.99Q116.98-9.29 116.41-8.91Q115.85-8.53 115.34-8.37L115.34-7.96Q115.85-7.82 116.45-7.44Q117.05-7.06 117.47-6.35Q117.90-5.63 117.90-4.49L117.90-4.25Q117.90-2.23 116.54-1.12Q115.18 0 113.02 0M109.80-13.34L109.80-9.48L112.61-9.48Q113.55-9.48 114.16-9.96Q114.77-10.44 114.77-11.29L114.77-11.52Q114.77-12.40 114.17-12.87Q113.57-13.34 112.61-13.34L109.80-13.34M109.80-6.72L109.80-2.76L112.65-2.76Q113.64-2.76 114.25-3.24Q114.86-3.73 114.86-4.62L114.86-4.85Q114.86-5.75 114.26-6.23Q113.66-6.72 112.65-6.72" class="cl" style="--i:9" fill="#FAFAFA" /><path d="M122.51 0L119.48 0L119.48-16.10L126.47-16.10Q127.99-16.10 129.11-15.57Q130.24-15.04 130.86-14.08Q131.48-13.11 131.48-11.80L131.48-11.52Q131.48-10.07 130.79-9.18Q130.10-8.28 129.09-7.87L129.09-7.45Q130.01-7.41 130.52-6.82Q131.02-6.23 131.02-5.27L131.02 0L127.99 0L127.99-4.83Q127.99-5.38 127.70-5.73Q127.41-6.07 126.75-6.07L122.51-6.07L122.51 0M122.51-13.34L122.51-8.83L126.15-8.83Q127.23-8.83 127.84-9.42Q128.45-10 128.45-10.97L128.45-11.20Q128.45-12.17 127.85-12.75Q127.25-13.34 126.15-13.34" class="cl" style="--i:10" fill="#FAFAFA" /><path d="M136.15 0L133.12 0L133.12-16.10L136.15-16.10" class="cl" style="--i:11" fill="#FAFAFA" /><path d="M148.78 0L138.29 0L138.29-16.10L148.64-16.10L148.64-13.34L141.32-13.34L141.32-9.50L147.99-9.50L147.99-6.74L141.32-6.74L141.32-2.76L148.78-2.76" class="cl" style="--i:12" fill="#FAFAFA" /><path d="M153.16 0L150.13 0L150.13-16.10L160.25-16.10L160.25-13.34L153.16-13.34L153.16-9.45L159.70-9.45L159.70-6.69L153.16-6.69" class="cl" style="--i:13" fill="#FAFAFA" /><path d="M168.36-4.55L161.55-4.55L161.55-7.18L168.36-7.18" class="cl" style="--i:14" fill="#FAFAFA" /><path d="M176.71 0L170.09 0L170.09-2.67L172.20-2.67L172.20-13.43L170.09-13.43L170.09-16.10L176.71-16.10Q179.96-16.10 181.65-14.46Q183.34-12.81 183.34-9.57L183.34-6.53Q183.34-3.29 181.65-1.64Q179.96 0 176.71 0M175.24-13.34L175.24-2.76L176.76-2.76Q178.60-2.76 179.45-3.73Q180.30-4.69 180.30-6.44L180.30-9.66Q180.30-11.43 179.45-12.39Q178.60-13.34 176.76-13.34" class="cl" style="--i:15" fill="#FAFAFA" /><path d="M191.22 0.32Q188.19 0.32 186.39-1.35Q184.60-3.01 184.60-6.12L184.60-9.98Q184.60-13.09 186.39-14.75Q188.19-16.42 191.22-16.42Q194.26-16.42 196.05-14.75Q197.85-13.09 197.85-9.98L197.85-6.12Q197.85-3.01 196.05-1.35Q194.26 0.32 191.22 0.32M191.22-2.39Q192.93-2.39 193.87-3.38Q194.81-4.37 194.81-6.03L194.81-10.07Q194.81-11.73 193.87-12.72Q192.93-13.71 191.22-13.71Q189.54-13.71 188.59-12.72Q187.64-11.73 187.64-10.07L187.64-6.03Q187.64-4.37 188.59-3.38Q189.54-2.39 191.22-2.39" class="cl" style="--i:16" fill="#FAFAFA" /><path d="M205.73 0.32Q202.74 0.32 200.99-1.35Q199.24-3.01 199.24-6.12L199.24-9.98Q199.24-13.09 200.99-14.75Q202.74-16.42 205.73-16.42Q208.69-16.42 210.31-14.80Q211.94-13.18 211.94-10.35L211.94-10.21L208.95-10.21L208.95-10.44Q208.95-11.87 208.15-12.79Q207.36-13.71 205.73-13.71Q204.12-13.71 203.20-12.72Q202.28-11.73 202.28-10.03L202.28-6.07Q202.28-4.39 203.20-3.39Q204.12-2.39 205.73-2.39Q207.36-2.39 208.15-3.32Q208.95-4.25 208.95-5.66L208.95-6.07L211.94-6.07L211.94-5.75Q211.94-2.92 210.31-1.30Q208.69 0.32 205.73 0.32" class="cl" style="--i:17" fill="#FAFAFA" /><path d="M219.96 0L216.92 0L216.92-13.34L212.23-13.34L212.23-16.10L224.65-16.10L224.65-13.34L219.96-13.34" class="cl" style="--i:18" fill="#FAFAFA" /><path d="M231.43 0.32Q228.40 0.32 226.60-1.35Q224.81-3.01 224.81-6.12L224.81-9.98Q224.81-13.09 226.60-14.75Q228.40-16.42 231.43-16.42Q234.47-16.42 236.26-14.75Q238.06-13.09 238.06-9.98L238.06-6.12Q238.06-3.01 236.26-1.35Q234.47 0.32 231.43 0.32M231.43-2.39Q233.14-2.39 234.08-3.38Q235.02-4.37 235.02-6.03L235.02-10.07Q235.02-11.73 234.08-12.72Q233.14-13.71 231.43-13.71Q229.75-13.71 228.80-12.72Q227.85-11.73 227.85-10.07L227.85-6.03Q227.85-4.37 228.80-3.38Q229.75-2.39 231.43-2.39" class="cl" style="--i:19" fill="#FAFAFA" /><path d="M242.86 0L239.83 0L239.83-16.10L246.82-16.10Q248.34-16.10 249.47-15.57Q250.59-15.04 251.21-14.08Q251.83-13.11 251.83-11.80L251.83-11.52Q251.83-10.07 251.14-9.18Q250.45-8.28 249.44-7.87L249.44-7.45Q250.36-7.41 250.87-6.82Q251.37-6.23 251.37-5.27L251.37 0L248.34 0L248.34-4.83Q248.34-5.38 248.05-5.73Q247.76-6.07 247.10-6.07L242.86-6.07L242.86 0M242.86-13.34L242.86-8.83L246.50-8.83Q247.58-8.83 248.19-9.42Q248.80-10 248.80-10.97L248.80-11.20Q248.80-12.17 248.20-12.75Q247.60-13.34 246.50-13.34" class="cl" style="--i:20" fill="#FAFAFA" /></g>
+
+<g class="frame">
+  <circle cx="311.0" cy="50" r="4" fill="#3178c6" class="dot" />
+  <text x="398" y="54" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="500" letter-spacing="1.4" fill="#8A8A8A" fill-opacity="1" text-anchor="end" xml:space="preserve">TYPESCRIPT</text>
+</g>
+
+<text style="--i:0" x="36" y="92" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" letter-spacing="0.1" fill="#8A8A8A" fill-opacity="1" text-anchor="start" class="cb" xml:space="preserve">Scores a creative brief, finds the gaps, and asks</text><text style="--i:1" x="36" y="109" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" letter-spacing="0.1" fill="#8A8A8A" fill-opacity="1" text-anchor="start" class="cb" xml:space="preserve">the questions you forgot to.</text>
+<g class="cc" style="--i:0"><rect x="36" y="126" width="28.2" height="19" rx="2" fill="rgba(250,250,250,0.07)" /><text x="44" y="139.5" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9.5" font-weight="500" letter-spacing="1.1" fill="#8A8A8A" fill-opacity="1" text-anchor="start" xml:space="preserve">AI</text></g><g class="cc" style="--i:1"><rect x="71.2" y="126" width="95.3" height="19" rx="2" fill="rgba(250,250,250,0.07)" /><text x="79.2" y="139.5" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9.5" font-weight="500" letter-spacing="1.1" fill="#8A8A8A" fill-opacity="1" text-anchor="start" xml:space="preserve">GENERATIVE-AI</text></g><g class="cc" style="--i:2"><rect x="173.5" y="126" width="52.6" height="19" rx="2" fill="rgba(250,250,250,0.07)" /><text x="181.5" y="139.5" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9.5" font-weight="500" letter-spacing="1.1" fill="#8A8A8A" fill-opacity="1" text-anchor="start" xml:space="preserve">NEXTJS</text></g>
+
+<g class="frame">
+  <text x="398" y="139.5" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="600" letter-spacing="1.5" fill="#FF6A4D" fill-opacity="1" text-anchor="end" xml:space="preserve">↗ LIVE</text>
+</g>
+</svg>

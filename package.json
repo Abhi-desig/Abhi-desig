@@ -1,0 +1,14 @@
+{
+  "name": "abhi-desig-profile",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Self-building animated GitHub profile README. Renders its own SVG motion system from the GitHub API.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/preview.mjs"
+  },
+  "dependencies": {
+    "opentype.js": "^2.0.0"
+  }
+}

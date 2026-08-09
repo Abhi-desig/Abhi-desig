@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="168" viewBox="0 0 420 168" fill="none" role="img" aria-label="GitDNA — Python">
+<title>GitDNA — Python</title>
+<desc>Reads a repository&apos;s commit history and renders its shape — who touched what, and when.</desc>
+<style>
+  
+    text{dominant-baseline:auto}
+    @media (prefers-reduced-motion:reduce){
+      *{animation:none!important;opacity:1!important;transform:none!important}
+      
+    }
+  
+  .bar{transform:scaleY(0);transform-origin:0 168px;animation:bar 6s cubic-bezier(.22,1,.36,1) infinite;animation-delay:0.00s}
+  @keyframes bar{
+    0%,4%{transform:scaleY(0)}
+    16%,88%{transform:scaleY(1)}
+    97%,100%{transform:scaleY(0)}
+  }
+
+  .frame{opacity:0;animation:fr 6s cubic-bezier(.22,1,.36,1) infinite;animation-delay:0.00s}
+  @keyframes fr{0%,2%{opacity:0}14%,90%{opacity:1}98%,100%{opacity:0}}
+
+  .cl{opacity:0;animation:cl 6s cubic-bezier(.22,1,.36,1) infinite;animation-delay:calc(0.00s + var(--i)*22ms)}
+  @keyframes cl{
+    0%,4.667%{opacity:0;transform:translateY(14px)}
+    14.167%,86.667%{opacity:1;transform:translateY(0)}
+    95.833%,100%{opacity:0}
+  }
+
+  .cb{opacity:0;animation:cb 6s cubic-bezier(.22,1,.36,1) infinite;animation-delay:calc(0.00s + var(--i)*80ms)}
+  @keyframes cb{
+    0%,11.667%{opacity:0;transform:translateY(7px)}
+    20.000%,86.667%{opacity:1;transform:translateY(0)}
+    95.833%,100%{opacity:0}
+  }
+
+  .cc{opacity:0;animation:cc 6s cubic-bezier(.22,1,.36,1) infinite;animation-delay:calc(0.00s + var(--i)*70ms)}
+  @keyframes cc{
+    0%,18.333%{opacity:0;transform:translateY(6px)}
+    26.667%,86.667%{opacity:1;transform:translateY(0)}
+    95.833%,100%{opacity:0}
+  }
+
+  /* The bar keeps a slow breath through the hold so the grid never dies. */
+  .glow{transform-box:fill-box;transform-origin:center;animation:glow 3.2s cubic-bezier(.4,0,.2,1) infinite}
+  @keyframes glow{0%,100%{opacity:.95}50%{opacity:.45}}
+
+  .dot{transform-box:fill-box;transform-origin:center;animation:dot 3.2s cubic-bezier(.4,0,.2,1) infinite}
+  @keyframes dot{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(.76);opacity:.55}}
+  </style>
+<rect width="420" height="168" fill="#FAFAF8" />
+<g class="frame"><rect x="0.5" y="0.5" width="419" height="167" rx="3" stroke="rgba(10,10,10,0.14)" fill="none" /></g>
+<g class="bar"><rect x="0" y="0" width="4" height="168" fill="#3572A5" class="glow" /></g>
+
+<g transform="translate(36 56)"><path d="M8.32 0.38Q6.37 0.38 4.79-0.50Q3.21-1.38 2.28-3.06Q1.35-4.75 1.35-7.18L1.35-11.72Q1.35-15.36 3.40-17.32Q5.45-19.28 8.96-19.28Q12.45-19.28 14.35-17.43Q16.25-15.58 16.25-12.42L16.25-12.31L12.74-12.31L12.74-12.53Q12.74-14.04 11.81-15.07Q10.88-16.09 8.96-16.09Q7.07-16.09 5.99-14.93Q4.91-13.77 4.91-11.77L4.91-7.13Q4.91-5.16 5.99-3.96Q7.07-2.75 9.02-2.75Q10.96-2.75 11.85-3.78Q12.74-4.81 12.74-6.37L12.74-6.64L8.26-6.64L8.26-9.67L16.25-9.67L16.25 0L12.96 0L12.96-1.81L12.47-1.81Q12.29-1.35 11.87-0.84Q11.45-0.32 10.61 0.03Q9.77 0.38 8.32 0.38" class="cl" style="--i:0" fill="#0A0A0A" /><path d="M22.32 0L18.75 0L18.75-18.90L22.32-18.90" class="cl" style="--i:1" fill="#0A0A0A" /><path d="M32.92 0L29.36 0L29.36-15.66L23.85-15.66L23.85-18.90L38.43-18.90L38.43-15.66L32.92-15.66" class="cl" style="--i:2" fill="#0A0A0A" /><path d="M47.20 0L39.42 0L39.42-3.13L41.91-3.13L41.91-15.77L39.42-15.77L39.42-18.90L47.20-18.90Q51-18.90 52.99-16.97Q54.97-15.04 54.97-11.23L54.97-7.67Q54.97-3.86 52.99-1.93Q51 0 47.20 0M45.47-15.66L45.47-3.24L47.25-3.24Q49.41-3.24 50.41-4.37Q51.41-5.51 51.41-7.56L51.41-11.34Q51.41-13.42 50.41-14.54Q49.41-15.66 47.25-15.66" class="cl" style="--i:3" fill="#0A0A0A" /><path d="M60.55 0L57.04 0L57.04-18.90L63.82-18.90L67.57-2.43L68.06-2.43L68.06-18.90L71.57-18.90L71.57 0L64.79 0L61.04-16.47L60.55-16.47" class="cl" style="--i:4" fill="#0A0A0A" /><path d="M76.61 0L72.94 0L77.90-18.90L84.11-18.90L89.08 0L85.41 0L84.38-4.16L77.63-4.16L76.61 0M80.77-16.66L78.47-7.45L83.55-7.45L81.25-16.66" class="cl" style="--i:5" fill="#0A0A0A" /></g>
+
+<g class="frame">
+  <circle cx="340.6" cy="50" r="4" fill="#3572A5" class="dot" />
+  <text x="398" y="54" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="500" letter-spacing="1.4" fill="#5F5F5F" fill-opacity="1" text-anchor="end" xml:space="preserve">PYTHON</text>
+</g>
+
+<text style="--i:0" x="36" y="92" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" letter-spacing="0.1" fill="#5F5F5F" fill-opacity="1" text-anchor="start" class="cb" xml:space="preserve">Reads a repository&apos;s commit history and renders its</text><text style="--i:1" x="36" y="109" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" letter-spacing="0.1" fill="#5F5F5F" fill-opacity="1" text-anchor="start" class="cb" xml:space="preserve">shape — who touched what, and when.</text>
+
+
+<g class="frame">
+  <text x="398" y="139.5" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="600" letter-spacing="1.5" fill="#C42B08" fill-opacity="1" text-anchor="end" xml:space="preserve">↗ OPEN</text>
+</g>
+</svg>
