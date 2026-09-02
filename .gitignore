@@ -4,3 +4,4 @@ node_modules/
 # (or `npm run preview -- --static` to check the no-animation fallback).
 preview.html
 preview-static.html
+.DS_Store
