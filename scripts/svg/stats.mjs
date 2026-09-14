@@ -1,19 +1,17 @@
 /**
  * Signals panel.
  *
- * This exists to retire two dependencies the old README carried: a
- * `github-readme-stats` hotlink and a streak counter pointed at a
- * `herokuapp.com` endpoint that no longer resolves. Both numbers are already
- * in the GraphQL payload or derivable from it, so rendering them here removes
- * the third party rather than swapping it for a different one that can also
- * disappear.
+ * This exists to retire a dependency the old README carried: a
+ * `github-readme-stats` hotlink. The numbers are already in the GraphQL payload
+ * or derivable from it, so rendering them here removes the third party rather
+ * than swapping it for a different one that can also disappear.
  *
  * Composition (1280 × 268):
  *
  *   ▪ SIGNALS                        SELF-COMPUTED · NO THIRD PARTY
  *   ────────────────────────────────────────────────────────────────
- *   CONTRIBUTIONS   COMMITS      CURRENT STREAK   PUBLIC REPOS
- *   75              59           8                4
+ *   CONTRIBUTIONS        COMMITS              PUBLIC REPOS
+ *   75                   59                   6
  *   ────────────────────────────────────────────────────────────────
  *   ████████████████████░░░░░░░░░░░░░░░░░░░░░░░  ← language split
  *   ● TYPESCRIPT 65.9%   ● JAVASCRIPT 20.1%   ● PYTHON 4.5%
@@ -40,7 +38,6 @@ export function stats({ data, theme, fonts }) {
   const cells = [
     { label: 'CONTRIBUTIONS', value: s.contributions },
     { label: 'COMMITS', value: s.commits },
-    { label: 'CURRENT STREAK', value: s.current },
     { label: 'PUBLIC REPOS', value: s.repoCount },
   ];
 
@@ -146,7 +143,7 @@ export function stats({ data, theme, fonts }) {
   return `${S.open({
     w,
     h,
-    title: `Signals — ${s.contributions} contributions, ${s.current} day streak, ${s.repoCount} public repos`,
+    title: `Signals — ${s.contributions} contributions, ${s.commits} commits, ${s.repoCount} public repos`,
     desc: `Language split: ${split.map((l) => `${l.name} ${l.pct.toFixed(1)}%`).join(', ')}`,
   })}
 ${S.style(css)}

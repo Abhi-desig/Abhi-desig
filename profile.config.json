@@ -8,7 +8,8 @@
 
   "links": {
     "portfolio": "",
-    "linkedin": "",
+    "linkedin": "https://www.linkedin.com/in/abhinav-anil-790620281/",
+    "behance": "https://www.behance.net/abhinavanil3",
     "x": "",
     "instagram": "",
     "email": ""
@@ -31,6 +32,13 @@
     },
     "Prompt-Vault": {
       "blurb": "Version control for prompts. Every edit is immutable, nothing is ever lost."
+    },
+    "FG_tool": {
+      "displayName": "Focus Toolkit",
+      "blurb": "A local pre-press assistant for a Kerala print shop. No GPU, no fee, no account."
+    },
+    "Day-Deck": {
+      "blurb": "Your life as a deck of day cards. Local-first, offline, and SQLite all the way down."
     }
   }
 }

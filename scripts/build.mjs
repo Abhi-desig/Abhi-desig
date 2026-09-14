@@ -56,7 +56,7 @@ async function main() {
   console.log(`→ fetching github.com/${LOGIN}`);
   const data = await fetchProfile(LOGIN, token, config);
   console.log(
-    `  ${data.repos.length} repos · ${data.stats.contributions} contributions · ${data.stats.current} day streak`,
+    `  ${data.repos.length} repos · ${data.stats.contributions} contributions · ${data.stats.commits} commits`,
   );
 
   const fonts = {
@@ -138,7 +138,7 @@ async function main() {
   const statsBlock = picture({
     dark: url('stats-dark.svg'),
     light: url('stats-light.svg'),
-    alt: `${data.stats.contributions} contributions, ${data.stats.current} day streak, ${data.stats.repoCount} public repos`,
+    alt: `${data.stats.contributions} contributions, ${data.stats.commits} commits, ${data.stats.repoCount} public repos`,
   });
   const snakeBlock =
     snakeDark && snakeLight

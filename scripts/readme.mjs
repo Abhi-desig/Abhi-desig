@@ -127,6 +127,7 @@ export function contactRow(links = {}, data) {
   const defs = [
     { key: 'portfolio', label: 'Portfolio', href: (v) => v },
     { key: 'linkedin', label: 'LinkedIn', href: (v) => (v.startsWith('http') ? v : `https://linkedin.com/in/${v}`) },
+    { key: 'behance', label: 'Behance', href: (v) => (v.startsWith('http') ? v : `https://behance.net/${v}`) },
     { key: 'x', label: 'X', href: (v) => (v.startsWith('http') ? v : `https://x.com/${v.replace(/^@/, '')}`) },
     { key: 'instagram', label: 'Instagram', href: (v) => (v.startsWith('http') ? v : `https://instagram.com/${v.replace(/^@/, '')}`) },
     { key: 'email', label: 'Email', href: (v) => (v.startsWith('mailto:') ? v : `mailto:${v}`) },

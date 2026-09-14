@@ -11,7 +11,7 @@
  *   CREATIVE TECHNOLOGIST
  *   Motion, interfaces, and small tools that do one thing well.
  *   ─────────────────────────────────────────────────────────────
- *   TYPESCRIPT · JAVASCRIPT · PYTHON             8 DAY STREAK ↻    ← bottom rail
+ *   TYPESCRIPT · JAVASCRIPT · PYTHON          79 CONTRIBUTIONS ↻    ← bottom rail
  *
  * Timeline runs on a 7s master loop, authored in seconds and converted to
  * keyframe percentages by pct() — keyed like a timeline rather than doing
@@ -104,10 +104,11 @@ export function hero({ data, theme, fonts }) {
     .slice(0, 3)
     .map((l) => l.name.toUpperCase())
     .join('  ·  ');
-  const streakLabel =
-    data.stats.current > 0
-      ? `${data.stats.current} DAY STREAK`
-      : `${data.stats.contributions} CONTRIBUTIONS`;
+  // Contributions, never a streak. A streak counter rewards showing up daily
+  // rather than shipping, and a page that reports one quietly pressures you into
+  // keeping it alive — which is also how the old build ended up committing four
+  // times a day for nothing. The Signals panel dropped it for the same reason.
+  const streakLabel = `${data.stats.contributions} CONTRIBUTIONS`;
 
   const roleW = S.monoWidth(role, 19, 7) + 20;
 
