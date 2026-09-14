@@ -1,8 +1,8 @@
 <!-- HERO:START -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/hero-dark.svg?v=57b660cea5" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/hero-light.svg?v=55b24d3f46" />
-  <img alt="Abhinav Anil — Creative Technologist. Motion, interfaces, and small tools that do one thing well." src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/hero-dark.svg?v=57b660cea5" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/hero-dark.svg?v=bc826162d9" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/hero-light.svg?v=d5aa947e81" />
+  <img alt="Abhinav Anil — Creative Technologist. Motion, interfaces, and small tools that do one thing well." src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/hero-dark.svg?v=bc826162d9" width="100%" />
 </picture>
 <!-- HERO:END -->
 
@@ -15,9 +15,9 @@
 
 <!-- MARQUEE:START -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/marquee-dark.svg?v=15e223deee" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/marquee-light.svg?v=eca34600da" />
-  <img alt="Stack: TypeScript, JavaScript, Python, Shell, Swift, CSS" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/marquee-dark.svg?v=15e223deee" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/marquee-dark.svg?v=bcc3e1c49b" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/marquee-light.svg?v=f7926154be" />
+  <img alt="Stack: TypeScript, Python, JavaScript, Shell, CSS, Swift" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/marquee-dark.svg?v=bcc3e1c49b" width="100%" />
 </picture>
 <!-- MARQUEE:END -->
 
@@ -29,8 +29,9 @@ Small tools, mostly at the seam between AI and creative work. I build rough, shi
 
 <!-- PROJECTS:START -->
 <table>
-<tr><td width="50%" valign="top"><a href="https://github.com/Abhi-desig/GitDNA-"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-gitdna-dark.svg?v=fb9b7b8861" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-gitdna-light.svg?v=03c5778377" /><img alt="GitDNA — Reads a repository's commit history and renders its shape — who touched what, and when. (opens the repository)" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-gitdna-dark.svg?v=fb9b7b8861" width="420" /></picture></a></td><td width="50%" valign="top"><a href="https://github.com/Abhi-desig/Gesture"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-gesture-dark.svg?v=b05e395d30" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-gesture-light.svg?v=15139a3696" /><img alt="Gesture — Your hands drive macOS. MediaPipe watches, Node decides, Swift presses the keys. (opens the repository)" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-gesture-dark.svg?v=b05e395d30" width="420" /></picture></a></td></tr>
-<tr><td width="50%" valign="top"><a href="https://promptvault-alpha-five.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-prompt-vault-dark.svg?v=8e339b33cb" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-prompt-vault-light.svg?v=b0118a41f3" /><img alt="Prompt-Vault — Version control for prompts. Every edit is immutable, nothing is ever lost. (opens the live site)" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-prompt-vault-dark.svg?v=8e339b33cb" width="420" /></picture></a></td><td width="50%" valign="top"><a href="https://creative-brief-doctor-web.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-creative-brief-doctor-dark.svg?v=2877153d36" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-creative-brief-doctor-light.svg?v=e65b3c7375" /><img alt="Creative-Brief-Doctor — Scores a creative brief, finds the gaps, and asks the questions you forgot to. (opens the live site)" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-creative-brief-doctor-dark.svg?v=2877153d36" width="420" /></picture></a></td></tr>
+<tr><td width="50%" valign="top"><a href="https://github.com/Abhi-desig/FG_tool"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-fg-tool-dark.svg?v=985ee890b2" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-fg-tool-light.svg?v=e91ceaf384" /><img alt="Focus Toolkit — A local pre-press assistant for a Kerala print shop. No GPU, no fee, no account. (opens the repository)" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-fg-tool-dark.svg?v=985ee890b2" width="420" /></picture></a></td><td width="50%" valign="top"><a href="https://creative-brief-doctor-web.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-creative-brief-doctor-dark.svg?v=e8d6814700" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-creative-brief-doctor-light.svg?v=693721113b" /><img alt="Creative-Brief-Doctor — Scores a creative brief, finds the gaps, and asks the questions you forgot to. (opens the live site)" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-creative-brief-doctor-dark.svg?v=e8d6814700" width="420" /></picture></a></td></tr>
+<tr><td width="50%" valign="top"><a href="https://github.com/Abhi-desig/Gesture"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-gesture-dark.svg?v=dfdd409445" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-gesture-light.svg?v=36d8c08ebe" /><img alt="Gesture — Your hands drive macOS. MediaPipe watches, Node decides, Swift presses the keys. (opens the repository)" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-gesture-dark.svg?v=dfdd409445" width="420" /></picture></a></td><td width="50%" valign="top"><a href="https://gitdna-production.up.railway.app/torvalds?style=forest&theme=dark"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-gitdna-dark.svg?v=7d4fec4179" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-gitdna-light.svg?v=1743b85262" /><img alt="GitDNA — Reads a repository's commit history and renders its shape — who touched what, and when. (opens the live site)" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-gitdna-dark.svg?v=7d4fec4179" width="420" /></picture></a></td></tr>
+<tr><td width="50%" valign="top"><a href="https://github.com/Abhi-desig/Day-Deck"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-day-deck-dark.svg?v=6b339b2af2" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-day-deck-light.svg?v=381029f89b" /><img alt="Day-Deck — Your life as a deck of day cards. Local-first, offline, and SQLite all the way down. (opens the repository)" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-day-deck-dark.svg?v=6b339b2af2" width="420" /></picture></a></td><td width="50%" valign="top"><a href="https://promptvault-alpha-five.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-prompt-vault-dark.svg?v=bec0b2317d" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-prompt-vault-light.svg?v=918d46fb7b" /><img alt="Prompt-Vault — Version control for prompts. Every edit is immutable, nothing is ever lost. (opens the live site)" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/card-prompt-vault-dark.svg?v=bec0b2317d" width="420" /></picture></a></td></tr>
 </table>
 <!-- PROJECTS:END -->
 
@@ -42,10 +43,12 @@ Small tools, mostly at the seam between AI and creative work. I build rough, shi
 <!-- INDEX:START -->
 | Project | What it does | Stack | |
 |---|---|---|---|
-| [**GitDNA**](https://github.com/Abhi-desig/GitDNA-) | Reads a repository's commit history and renders its shape — who touched what, and when. | `Python` | [repo ↗](https://github.com/Abhi-desig/GitDNA-) |
-| [**Gesture**](https://github.com/Abhi-desig/Gesture) | A gesture-powered macOS companion where AI watches your hand, Chrome sees the motion, Node makes the decisions, Swift presses the keys, and Rust quietly keeps everything alive. No clicks. Just vibes and surprisingly cooperative software. | `JavaScript` | [repo ↗](https://github.com/Abhi-desig/Gesture) |
-| [**Prompt-Vault**](https://github.com/Abhi-desig/Prompt-Vault) | PromptVault is a version-controlled AI prompt manager that lets you save, organize, search, compare, and restore prompts without ever losing previous edits. Every change creates an immutable version, giving you a complete history of your prompt evolution. | `TypeScript` | [repo ↗](https://github.com/Abhi-desig/Prompt-Vault) · [live ↗](https://promptvault-alpha-five.vercel.app) |
+| [**Focus Toolkit**](https://github.com/Abhi-desig/FG_tool) | Offline pre-press toolkit for a Kerala print shop: Malayalam font conversion, image upscaling, background removal, Excel translation, and AI posters with real editable text layers. | `Python` | [repo ↗](https://github.com/Abhi-desig/FG_tool) |
 | [**Creative-Brief-Doctor**](https://github.com/Abhi-desig/Creative-Brief-Doctor) | Creative Brief Doctor is an AI-powered tool that scores creative briefs, identifies gaps, and generates actionable follow-up questions in a shareable report. | `TypeScript` | [repo ↗](https://github.com/Abhi-desig/Creative-Brief-Doctor) · [live ↗](https://creative-brief-doctor-web.vercel.app/) |
+| [**Gesture**](https://github.com/Abhi-desig/Gesture) | A gesture-powered macOS companion where AI watches your hand, Chrome sees the motion, Node makes the decisions, Swift presses the keys, and Rust quietly keeps everything alive. No clicks. Just vibes and surprisingly cooperative software. | `JavaScript` | [repo ↗](https://github.com/Abhi-desig/Gesture) |
+| [**GitDNA**](https://github.com/Abhi-desig/GitDNA-) | GitDNA turns a developer’s Git history into a living, procedurally generated organism. Commits, repos, releases, stars, forks, and dormant periods become visual elements that reveal how their GitHub evolved over time. | `Python` | [repo ↗](https://github.com/Abhi-desig/GitDNA-) · [live ↗](https://gitdna-production.up.railway.app/torvalds?style=forest&theme=dark) |
+| [**Day-Deck**](https://github.com/Abhi-desig/Day-Deck) | Day Deck is a local-first macOS app that turns your life into a deck of day cards. Plan tasks, manage goals, track progress, build projects, and create AI-powered storyboards, all backed by SQLite and designed to work offline. | `TypeScript` | [repo ↗](https://github.com/Abhi-desig/Day-Deck) |
+| [**Prompt-Vault**](https://github.com/Abhi-desig/Prompt-Vault) | PromptVault is a version-controlled AI prompt manager that lets you save, organize, search, compare, and restore prompts without ever losing previous edits. Every change creates an immutable version, giving you a complete history of your prompt evolution. | `TypeScript` | [repo ↗](https://github.com/Abhi-desig/Prompt-Vault) · [live ↗](https://promptvault-alpha-five.vercel.app) |
 <!-- INDEX:END -->
 
 </details>
@@ -56,9 +59,15 @@ Small tools, mostly at the seam between AI and creative work. I build rough, shi
 
 <!-- STATS:START -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/stats-dark.svg?v=2420b67178" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/stats-light.svg?v=5d4a95d421" />
-  <img alt="79 contributions, 9 day streak, 4 public repos" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/stats-dark.svg?v=2420b67178" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/stats-dark.svg?v=8fda4e732c" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/stats-light.svg?v=138906fd2d" />
+  <img alt="182 contributions, 148 commits, 6 public repos" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/stats-dark.svg?v=8fda4e732c" width="100%" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/github-snake-dark.svg?v=3a52be83a2" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/github-snake.svg?v=040ad06b55" />
+  <img alt="Contribution graph, consumed by a snake" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/github-snake-dark.svg?v=3a52be83a2" width="100%" />
 </picture>
 <!-- STATS:END -->
 
@@ -112,7 +121,7 @@ language splits are all computed from data the build already fetched.
 ## Say hello
 
 <!-- CONTACT:START -->
-[**GitHub**](https://github.com/Abhi-desig)
+[**LinkedIn**](https://www.linkedin.com/in/abhinav-anil-790620281/) · [**Behance**](https://www.behance.net/abhinavanil3) · [**GitHub**](https://github.com/Abhi-desig)
 <!-- CONTACT:END -->
 
 <br />

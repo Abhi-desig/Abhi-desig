@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="168" viewBox="0 0 420 168" fill="none" role="img" aria-label="Focus Toolkit — Python">
+<title>Focus Toolkit — Python</title>
+<desc>A local pre-press assistant for a Kerala print shop. No GPU, no fee, no account.</desc>
+<style>
+  
+    text{dominant-baseline:auto}
+    @media (prefers-reduced-motion:reduce){
+      *{animation:none!important;opacity:1!important;transform:none!important}
+      
+    }
+  
+  .bar{transform-origin:0 168px;animation:bar 6s cubic-bezier(.22,1,.36,1) infinite backwards;animation-delay:0.00s}
+  @keyframes bar{
+    0%,4%{transform:scaleY(0)}
+    16%,88%{transform:scaleY(1)}
+    97%,100%{transform:scaleY(0)}
+  }
+
+  .frame{animation:fr 6s cubic-bezier(.22,1,.36,1) infinite backwards;animation-delay:0.00s}
+  @keyframes fr{0%,2%{opacity:0}14%,90%{opacity:1}98%,100%{opacity:0}}
+
+  .cl{animation:cl 6s cubic-bezier(.22,1,.36,1) infinite backwards;animation-delay:calc(0.00s + var(--i)*22ms)}
+  @keyframes cl{
+    0%,4.667%{opacity:0;transform:translateY(14px)}
+    14.167%,86.667%{opacity:1;transform:translateY(0)}
+    95.833%,100%{opacity:0}
+  }
+
+  .cb{animation:cb 6s cubic-bezier(.22,1,.36,1) infinite backwards;animation-delay:calc(0.00s + var(--i)*80ms)}
+  @keyframes cb{
+    0%,11.667%{opacity:0;transform:translateY(7px)}
+    20.000%,86.667%{opacity:1;transform:translateY(0)}
+    95.833%,100%{opacity:0}
+  }
+
+  .cc{animation:cc 6s cubic-bezier(.22,1,.36,1) infinite backwards;animation-delay:calc(0.00s + var(--i)*70ms)}
+  @keyframes cc{
+    0%,18.333%{opacity:0;transform:translateY(6px)}
+    26.667%,86.667%{opacity:1;transform:translateY(0)}
+    95.833%,100%{opacity:0}
+  }
+
+  /* The bar keeps a slow breath through the hold so the grid never dies. */
+  .glow{transform-box:fill-box;transform-origin:center;animation:glow 3.2s cubic-bezier(.4,0,.2,1) infinite backwards}
+  @keyframes glow{0%,100%{opacity:.95}50%{opacity:.45}}
+
+  .dot{transform-box:fill-box;transform-origin:center;animation:dot 3.2s cubic-bezier(.4,0,.2,1) infinite backwards}
+  @keyframes dot{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(.76);opacity:.55}}
+  </style>
+<rect width="420" height="168" fill="#FAFAF8" />
+<g class="frame"><rect x="0.5" y="0.5" width="419" height="167" rx="3" stroke="rgba(10,10,10,0.14)" fill="none" /></g>
+<g class="bar"><rect x="0" y="0" width="4" height="168" fill="#3572A5" class="glow" /></g>
+
+<g transform="translate(36 56)"><path d="M5.35 0L1.78 0L1.78-18.90L13.66-18.90L13.66-15.66L5.35-15.66L5.35-11.10L13.01-11.10L13.01-7.86L5.35-7.86" class="cl" style="--i:0" fill="#0A0A0A" /><path d="M22.49 0.38Q18.92 0.38 16.82-1.58Q14.71-3.54 14.71-7.18L14.71-11.72Q14.71-15.36 16.82-17.32Q18.92-19.28 22.49-19.28Q26.05-19.28 28.16-17.32Q30.26-15.36 30.26-11.72L30.26-7.18Q30.26-3.54 28.16-1.58Q26.05 0.38 22.49 0.38M22.49-2.81Q24.48-2.81 25.59-3.97Q26.70-5.13 26.70-7.07L26.70-11.83Q26.70-13.77 25.59-14.93Q24.48-16.09 22.49-16.09Q20.52-16.09 19.39-14.93Q18.27-13.77 18.27-11.83L18.27-7.07Q18.27-5.13 19.39-3.97Q20.52-2.81 22.49-2.81" class="cl" style="--i:1" fill="#0A0A0A" /><path d="M39.67 0.38Q36.16 0.38 34.11-1.58Q32.06-3.54 32.06-7.18L32.06-11.72Q32.06-15.36 34.11-17.32Q36.16-19.28 39.67-19.28Q43.16-19.28 45.06-17.37Q46.96-15.47 46.96-12.15L46.96-11.99L43.45-11.99L43.45-12.26Q43.45-13.93 42.52-15.01Q41.59-16.09 39.67-16.09Q37.78-16.09 36.70-14.93Q35.62-13.77 35.62-11.77L35.62-7.13Q35.62-5.16 36.70-3.98Q37.78-2.81 39.67-2.81Q41.59-2.81 42.52-3.90Q43.45-5 43.45-6.64L43.45-7.13L46.96-7.13L46.96-6.75Q46.96-3.43 45.06-1.53Q43.16 0.38 39.67 0.38" class="cl" style="--i:2" fill="#0A0A0A" /><path d="M56.27 0.38Q52.79 0.38 50.83-1.51Q48.87-3.40 48.87-6.64L48.87-18.90L52.44-18.90L52.44-6.53Q52.44-4.81 53.42-3.81Q54.41-2.81 56.27-2.81Q58.14-2.81 59.12-3.81Q60.11-4.81 60.11-6.53L60.11-18.90L63.67-18.90L63.67-6.64Q63.67-3.40 61.71-1.51Q59.76 0.38 56.27 0.38" class="cl" style="--i:3" fill="#0A0A0A" /><path d="M72.78 0.38Q70.60 0.38 68.92-0.40Q67.25-1.19 66.30-2.65Q65.36-4.10 65.36-6.16L65.36-6.91L68.87-6.91L68.87-6.16Q68.87-4.46 69.92-3.60Q70.97-2.75 72.78-2.75Q74.62-2.75 75.52-3.48Q76.43-4.21 76.43-5.35Q76.43-6.53 75.44-7.06Q74.46-7.59 72.62-7.99L72-8.13Q70.06-8.56 68.67-9.22Q67.27-9.88 66.53-10.96Q65.79-12.04 65.79-13.77Q65.79-16.36 67.61-17.82Q69.44-19.28 72.46-19.28Q74.48-19.28 76.06-18.59Q77.64-17.90 78.55-16.54Q79.45-15.17 79.45-13.12L79.45-12.31L75.94-12.31L75.94-13.12Q75.94-14.74 75.01-15.44Q74.08-16.15 72.46-16.15Q70.84-16.15 70.07-15.54Q69.30-14.93 69.30-13.88Q69.30-12.82 70.11-12.26Q70.92-11.69 72.62-11.31L73.24-11.18Q75.27-10.75 76.77-10.07Q78.26-9.40 79.10-8.29Q79.94-7.18 79.94-5.45Q79.94-3.73 79.06-2.42Q78.18-1.11 76.58-0.36Q74.97 0.38 72.78 0.38" class="cl" style="--i:4" fill="#0A0A0A" /><path d="M94.77 0L91.21 0L91.21-15.66L85.70-15.66L85.70-18.90L100.28-18.90L100.28-15.66L94.77-15.66" class="cl" style="--i:5" fill="#0A0A0A" /><path d="M108.40 0.38Q104.83 0.38 102.73-1.58Q100.62-3.54 100.62-7.18L100.62-11.72Q100.62-15.36 102.73-17.32Q104.83-19.28 108.40-19.28Q111.96-19.28 114.07-17.32Q116.17-15.36 116.17-11.72L116.17-7.18Q116.17-3.54 114.07-1.58Q111.96 0.38 108.40 0.38M108.40-2.81Q110.39-2.81 111.50-3.97Q112.61-5.13 112.61-7.07L112.61-11.83Q112.61-13.77 111.50-14.93Q110.39-16.09 108.40-16.09Q106.42-16.09 105.30-14.93Q104.18-13.77 104.18-11.83L104.18-7.07Q104.18-5.13 105.30-3.97Q106.42-2.81 108.40-2.81" class="cl" style="--i:6" fill="#0A0A0A" /><path d="M125.75 0.38Q122.18 0.38 120.08-1.58Q117.97-3.54 117.97-7.18L117.97-11.72Q117.97-15.36 120.08-17.32Q122.18-19.28 125.75-19.28Q129.31-19.28 131.42-17.32Q133.52-15.36 133.52-11.72L133.52-7.18Q133.52-3.54 131.42-1.58Q129.31 0.38 125.75 0.38M125.75-2.81Q127.74-2.81 128.85-3.97Q129.96-5.13 129.96-7.07L129.96-11.83Q129.96-13.77 128.85-14.93Q127.74-16.09 125.75-16.09Q123.78-16.09 122.65-14.93Q121.53-13.77 121.53-11.83L121.53-7.07Q121.53-5.13 122.65-3.97Q123.78-2.81 125.75-2.81" class="cl" style="--i:7" fill="#0A0A0A" /><path d="M147.96 0L135.75 0L135.75-18.90L139.32-18.90L139.32-3.24L147.96-3.24" class="cl" style="--i:8" fill="#0A0A0A" /><path d="M153.06 0L149.49 0L149.49-18.90L153.06-18.90L153.06-11.39L153.54-11.39L159.67-18.90L164.23-18.90L156.35-9.58L164.50 0L159.81 0L153.54-7.67L153.06-7.67" class="cl" style="--i:9" fill="#0A0A0A" /><path d="M169.06 0L165.49 0L165.49-18.90L169.06-18.90" class="cl" style="--i:10" fill="#0A0A0A" /><path d="M179.66 0L176.10 0L176.10-15.66L170.59-15.66L170.59-18.90L185.17-18.90L185.17-15.66L179.66-15.66" class="cl" style="--i:11" fill="#0A0A0A" /></g>
+
+<g class="frame">
+  <circle cx="340.6" cy="50" r="4" fill="#3572A5" class="dot" />
+  <text x="398" y="54" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="500" letter-spacing="1.4" fill="#5F5F5F" fill-opacity="1" text-anchor="end" xml:space="preserve">PYTHON</text>
+</g>
+
+<text style="--i:0" x="36" y="92" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" letter-spacing="0.1" fill="#5F5F5F" fill-opacity="1" text-anchor="start" class="cb" xml:space="preserve">A local pre-press assistant for a Kerala print</text><text style="--i:1" x="36" y="109" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" letter-spacing="0.1" fill="#5F5F5F" fill-opacity="1" text-anchor="start" class="cb" xml:space="preserve">shop. No GPU, no fee, no account.</text>
+
+
+<g class="frame">
+  <text x="398" y="139.5" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="600" letter-spacing="1.5" fill="#C42B08" fill-opacity="1" text-anchor="end" xml:space="preserve">REPO  ↗</text>
+</g>
+</svg>

@@ -4,121 +4,52 @@
     "login": "Abhi-desig",
     "role": "Creative Technologist",
     "tagline": "Motion, interfaces, and small tools that do one thing well.",
-    "followers": 2
+    "followers": 1
   },
   "repos": [
     {
-      "name": "GitDNA-",
-      "displayName": "GitDNA",
-      "blurb": "Reads a repository's commit history and renders its shape — who touched what, and when.",
-      "description": "",
-      "url": "https://github.com/Abhi-desig/GitDNA-",
+      "name": "FG_tool",
+      "displayName": "Focus Toolkit",
+      "blurb": "A local pre-press assistant for a Kerala print shop. No GPU, no fee, no account.",
+      "description": "Offline pre-press toolkit for a Kerala print shop: Malayalam font conversion, image upscaling, background removal, Excel translation, and AI posters with real editable text layers.",
+      "url": "https://github.com/Abhi-desig/FG_tool",
       "live": "",
       "stars": 0,
       "forks": 0,
-      "pushedAt": "2026-08-08T05:44:26Z",
+      "pushedAt": "2026-09-11T09:54:08Z",
       "language": "Python",
       "languageColor": "#3572A5",
       "topics": [],
       "languages": [
         {
           "name": "Python",
-          "size": 60754,
+          "size": 769392,
           "color": "#3572A5"
         },
         {
-          "name": "HTML",
-          "size": 3533,
-          "color": "#e34c26"
-        },
-        {
-          "name": "JavaScript",
-          "size": 2677,
-          "color": "#f1e05a"
-        },
-        {
-          "name": "Dockerfile",
-          "size": 659,
-          "color": "#384d54"
-        }
-      ]
-    },
-    {
-      "name": "Gesture",
-      "displayName": "Gesture",
-      "blurb": "Your hands drive macOS. MediaPipe watches, Node decides, Swift presses the keys.",
-      "description": "A gesture-powered macOS companion where AI watches your hand, Chrome sees the motion, Node makes the decisions, Swift presses the keys, and Rust quietly keeps everything alive. No clicks. Just vibes and surprisingly cooperative software.",
-      "url": "https://github.com/Abhi-desig/Gesture",
-      "live": "",
-      "stars": 0,
-      "forks": 0,
-      "pushedAt": "2026-08-07T06:46:13Z",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "topics": [
-        "jarvis-ai",
-        "macos",
-        "mediapipe",
-        "mediapipe-hands"
-      ],
-      "languages": [
-        {
-          "name": "JavaScript",
-          "size": 208100,
-          "color": "#f1e05a"
-        },
-        {
-          "name": "Swift",
-          "size": 25637,
-          "color": "#F05138"
-        },
-        {
-          "name": "Rust",
-          "size": 13397,
-          "color": "#dea584"
-        },
-        {
-          "name": "CSS",
-          "size": 5293,
-          "color": "#663399"
-        },
-        {
-          "name": "HTML",
-          "size": 2525,
-          "color": "#e34c26"
-        }
-      ]
-    },
-    {
-      "name": "Prompt-Vault",
-      "displayName": "Prompt-Vault",
-      "blurb": "Version control for prompts. Every edit is immutable, nothing is ever lost.",
-      "description": "PromptVault is a version-controlled AI prompt manager that lets you save, organize, search, compare, and restore prompts without ever losing previous edits. Every change creates an immutable version, giving you a complete history of your prompt evolution.",
-      "url": "https://github.com/Abhi-desig/Prompt-Vault",
-      "live": "https://promptvault-alpha-five.vercel.app",
-      "stars": 0,
-      "forks": 0,
-      "pushedAt": "2026-08-05T05:12:36Z",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "topics": [
-        "library"
-      ],
-      "languages": [
-        {
           "name": "TypeScript",
-          "size": 165851,
+          "size": 260462,
           "color": "#3178c6"
         },
         {
           "name": "CSS",
-          "size": 820,
+          "size": 5728,
           "color": "#663399"
         },
         {
-          "name": "JavaScript",
-          "size": 146,
-          "color": "#f1e05a"
+          "name": "Shell",
+          "size": 470,
+          "color": "#89e051"
+        },
+        {
+          "name": "Batchfile",
+          "size": 433,
+          "color": "#C1F12E"
+        },
+        {
+          "name": "HTML",
+          "size": 300,
+          "color": "#e34c26"
         }
       ]
     },
@@ -131,7 +62,7 @@
       "live": "https://creative-brief-doctor-web.vercel.app/",
       "stars": 0,
       "forks": 0,
-      "pushedAt": "2026-08-03T12:56:33Z",
+      "pushedAt": "2026-09-02T04:53:29Z",
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "topics": [
@@ -173,76 +104,233 @@
           "color": "#384d54"
         }
       ]
+    },
+    {
+      "name": "Gesture",
+      "displayName": "Gesture",
+      "blurb": "Your hands drive macOS. MediaPipe watches, Node decides, Swift presses the keys.",
+      "description": "A gesture-powered macOS companion where AI watches your hand, Chrome sees the motion, Node makes the decisions, Swift presses the keys, and Rust quietly keeps everything alive. No clicks. Just vibes and surprisingly cooperative software.",
+      "url": "https://github.com/Abhi-desig/Gesture",
+      "live": "",
+      "stars": 0,
+      "forks": 0,
+      "pushedAt": "2026-09-02T04:52:55Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "topics": [
+        "jarvis-ai",
+        "macos",
+        "mediapipe",
+        "mediapipe-hands"
+      ],
+      "languages": [
+        {
+          "name": "JavaScript",
+          "size": 208100,
+          "color": "#f1e05a"
+        },
+        {
+          "name": "Swift",
+          "size": 25637,
+          "color": "#F05138"
+        },
+        {
+          "name": "Rust",
+          "size": 13397,
+          "color": "#dea584"
+        },
+        {
+          "name": "CSS",
+          "size": 5293,
+          "color": "#663399"
+        },
+        {
+          "name": "HTML",
+          "size": 2525,
+          "color": "#e34c26"
+        }
+      ]
+    },
+    {
+      "name": "GitDNA-",
+      "displayName": "GitDNA",
+      "blurb": "Reads a repository's commit history and renders its shape — who touched what, and when.",
+      "description": "GitDNA turns a developer’s Git history into a living, procedurally generated organism. Commits, repos, releases, stars, forks, and dormant periods become visual elements that reveal how their GitHub evolved over time.",
+      "url": "https://github.com/Abhi-desig/GitDNA-",
+      "live": "https://gitdna-production.up.railway.app/torvalds?style=forest&theme=dark",
+      "stars": 0,
+      "forks": 0,
+      "pushedAt": "2026-09-02T04:51:51Z",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "topics": [],
+      "languages": [
+        {
+          "name": "Python",
+          "size": 61326,
+          "color": "#3572A5"
+        },
+        {
+          "name": "HTML",
+          "size": 3533,
+          "color": "#e34c26"
+        },
+        {
+          "name": "JavaScript",
+          "size": 2677,
+          "color": "#f1e05a"
+        },
+        {
+          "name": "Dockerfile",
+          "size": 659,
+          "color": "#384d54"
+        }
+      ]
+    },
+    {
+      "name": "Day-Deck",
+      "displayName": "Day-Deck",
+      "blurb": "Your life as a deck of day cards. Local-first, offline, and SQLite all the way down.",
+      "description": "Day Deck is a local-first macOS app that turns your life into a deck of day cards. Plan tasks, manage goals, track progress, build projects, and create AI-powered storyboards, all backed by SQLite and designed to work offline.",
+      "url": "https://github.com/Abhi-desig/Day-Deck",
+      "live": "",
+      "stars": 0,
+      "forks": 0,
+      "pushedAt": "2026-09-02T04:51:43Z",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "topics": [],
+      "languages": [
+        {
+          "name": "TypeScript",
+          "size": 1732140,
+          "color": "#3178c6"
+        },
+        {
+          "name": "CSS",
+          "size": 22946,
+          "color": "#663399"
+        },
+        {
+          "name": "JavaScript",
+          "size": 10722,
+          "color": "#f1e05a"
+        },
+        {
+          "name": "HTML",
+          "size": 997,
+          "color": "#e34c26"
+        }
+      ]
+    },
+    {
+      "name": "Prompt-Vault",
+      "displayName": "Prompt-Vault",
+      "blurb": "Version control for prompts. Every edit is immutable, nothing is ever lost.",
+      "description": "PromptVault is a version-controlled AI prompt manager that lets you save, organize, search, compare, and restore prompts without ever losing previous edits. Every change creates an immutable version, giving you a complete history of your prompt evolution.",
+      "url": "https://github.com/Abhi-desig/Prompt-Vault",
+      "live": "https://promptvault-alpha-five.vercel.app",
+      "stars": 0,
+      "forks": 0,
+      "pushedAt": "2026-08-05T05:12:36Z",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "topics": [
+        "library"
+      ],
+      "languages": [
+        {
+          "name": "TypeScript",
+          "size": 165851,
+          "color": "#3178c6"
+        },
+        {
+          "name": "CSS",
+          "size": 820,
+          "color": "#663399"
+        },
+        {
+          "name": "JavaScript",
+          "size": 146,
+          "color": "#f1e05a"
+        }
+      ]
     }
   ],
   "stats": {
-    "repoCount": 4,
+    "repoCount": 6,
     "stars": 0,
-    "contributions": 79,
-    "commits": 62,
-    "current": 9,
+    "contributions": 182,
+    "commits": 148,
+    "current": 1,
     "longest": 9,
-    "lastPush": "2026-08-08",
+    "lastPush": "2026-09-11",
     "languages": [
       {
         "name": "TypeScript",
-        "size": 894706,
+        "size": 2887308,
         "color": "#3178c6",
-        "pct": 65.85039320818873
-      },
-      {
-        "name": "JavaScript",
-        "size": 273088,
-        "color": "#f1e05a",
-        "pct": 20.099286447657494
+        "pct": 69.35880814546356
       },
       {
         "name": "Python",
-        "size": 60754,
+        "size": 830718,
         "color": "#3572A5",
-        "pct": 4.471496546318343
+        "pct": 19.955477692363683
+      },
+      {
+        "name": "JavaScript",
+        "size": 283810,
+        "color": "#f1e05a",
+        "pct": 6.817673535266764
       },
       {
         "name": "Shell",
-        "size": 57080,
+        "size": 57550,
         "color": "#89e051",
-        "pct": 4.201090016523208
+        "pct": 1.3824640144977356
+      },
+      {
+        "name": "CSS",
+        "size": 50358,
+        "color": "#663399",
+        "pct": 1.2096980511221018
       },
       {
         "name": "Swift",
         "size": 25637,
         "color": "#F05138",
-        "pct": 1.8868841057043708
-      },
-      {
-        "name": "CSS",
-        "size": 21684,
-        "color": "#663399",
-        "pct": 1.59594316605272
+        "pct": 0.6158510849640043
       },
       {
         "name": "Rust",
         "size": 13397,
         "color": "#dea584",
-        "pct": 0.9860196732894433
+        "pct": 0.3218222485182652
       },
       {
         "name": "HTML",
-        "size": 6058,
+        "size": 7355,
         "color": "#e34c26",
-        "pct": 0.44586901401712675
+        "pct": 0.17668154346882442
       },
       {
         "name": "PLpgSQL",
         "size": 3652,
         "color": "#336790",
-        "pct": 0.2687873290179179
+        "pct": 0.08772821165848359
       },
       {
         "name": "Dockerfile",
         "size": 2639,
         "color": "#384d54",
-        "pct": 0.19423049323063674
+        "pct": 0.06339396236767202
+      },
+      {
+        "name": "Batchfile",
+        "size": 433,
+        "color": "#C1F12E",
+        "pct": 0.010401510308905638
       }
     ]
   }

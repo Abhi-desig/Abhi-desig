@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="168" viewBox="0 0 420 168" fill="none" role="img" aria-label="Day-Deck — TypeScript">
+<title>Day-Deck — TypeScript</title>
+<desc>Your life as a deck of day cards. Local-first, offline, and SQLite all the way down.</desc>
+<style>
+  
+    text{dominant-baseline:auto}
+    @media (prefers-reduced-motion:reduce){
+      *{animation:none!important;opacity:1!important;transform:none!important}
+      
+    }
+  
+  .bar{transform-origin:0 168px;animation:bar 6s cubic-bezier(.22,1,.36,1) infinite backwards;animation-delay:0.48s}
+  @keyframes bar{
+    0%,4%{transform:scaleY(0)}
+    16%,88%{transform:scaleY(1)}
+    97%,100%{transform:scaleY(0)}
+  }
+
+  .frame{animation:fr 6s cubic-bezier(.22,1,.36,1) infinite backwards;animation-delay:0.48s}
+  @keyframes fr{0%,2%{opacity:0}14%,90%{opacity:1}98%,100%{opacity:0}}
+
+  .cl{animation:cl 6s cubic-bezier(.22,1,.36,1) infinite backwards;animation-delay:calc(0.48s + var(--i)*22ms)}
+  @keyframes cl{
+    0%,4.667%{opacity:0;transform:translateY(14px)}
+    14.167%,86.667%{opacity:1;transform:translateY(0)}
+    95.833%,100%{opacity:0}
+  }
+
+  .cb{animation:cb 6s cubic-bezier(.22,1,.36,1) infinite backwards;animation-delay:calc(0.48s + var(--i)*80ms)}
+  @keyframes cb{
+    0%,11.667%{opacity:0;transform:translateY(7px)}
+    20.000%,86.667%{opacity:1;transform:translateY(0)}
+    95.833%,100%{opacity:0}
+  }
+
+  .cc{animation:cc 6s cubic-bezier(.22,1,.36,1) infinite backwards;animation-delay:calc(0.48s + var(--i)*70ms)}
+  @keyframes cc{
+    0%,18.333%{opacity:0;transform:translateY(6px)}
+    26.667%,86.667%{opacity:1;transform:translateY(0)}
+    95.833%,100%{opacity:0}
+  }
+
+  /* The bar keeps a slow breath through the hold so the grid never dies. */
+  .glow{transform-box:fill-box;transform-origin:center;animation:glow 3.2s cubic-bezier(.4,0,.2,1) infinite backwards}
+  @keyframes glow{0%,100%{opacity:.95}50%{opacity:.45}}
+
+  .dot{transform-box:fill-box;transform-origin:center;animation:dot 3.2s cubic-bezier(.4,0,.2,1) infinite backwards}
+  @keyframes dot{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(.76);opacity:.55}}
+  </style>
+<rect width="420" height="168" fill="#FAFAF8" />
+<g class="frame"><rect x="0.5" y="0.5" width="419" height="167" rx="3" stroke="rgba(10,10,10,0.14)" fill="none" /></g>
+<g class="bar"><rect x="0" y="0" width="4" height="168" fill="#3178c6" class="glow" /></g>
+
+<g transform="translate(36 56)"><path d="M9.02 0L1.24 0L1.24-3.13L3.73-3.13L3.73-15.77L1.24-15.77L1.24-18.90L9.02-18.90Q12.82-18.90 14.81-16.97Q16.79-15.04 16.79-11.23L16.79-7.67Q16.79-3.86 14.81-1.93Q12.82 0 9.02 0M7.29-15.66L7.29-3.24L9.07-3.24Q11.23-3.24 12.23-4.37Q13.23-5.51 13.23-7.56L13.23-11.34Q13.23-13.42 12.23-14.54Q11.23-15.66 9.07-15.66" class="cl" style="--i:0" fill="#0A0A0A" /><path d="M21.08 0L17.41 0L22.37-18.90L28.58-18.90L33.55 0L29.88 0L28.85-4.16L22.10-4.16L21.08 0M25.24-16.66L22.94-7.45L28.02-7.45L25.72-16.66" class="cl" style="--i:1" fill="#0A0A0A" /><path d="M41.40 0L37.83 0L37.83-6.51L31.41-18.90L35.38-18.90L39.37-10.80L39.86-10.80L43.85-18.90L47.82-18.90L41.40-6.51" class="cl" style="--i:2" fill="#0A0A0A" /><path d="M54.33-5.35L46.34-5.35L46.34-8.42L54.33-8.42" class="cl" style="--i:3" fill="#0A0A0A" /><path d="M64.28 0L56.50 0L56.50-3.13L58.99-3.13L58.99-15.77L56.50-15.77L56.50-18.90L64.28-18.90Q68.08-18.90 70.07-16.97Q72.05-15.04 72.05-11.23L72.05-7.67Q72.05-3.86 70.07-1.93Q68.08 0 64.28 0M62.55-15.66L62.55-3.24L64.33-3.24Q66.49-3.24 67.49-4.37Q68.49-5.51 68.49-7.56L68.49-11.34Q68.49-13.42 67.49-14.54Q66.49-15.66 64.33-15.66" class="cl" style="--i:4" fill="#0A0A0A" /><path d="M86.43 0L74.12 0L74.12-18.90L86.27-18.90L86.27-15.66L77.69-15.66L77.69-11.15L85.52-11.15L85.52-7.91L77.69-7.91L77.69-3.24L86.43-3.24" class="cl" style="--i:5" fill="#0A0A0A" /><path d="M95.36 0.38Q91.85 0.38 89.80-1.58Q87.75-3.54 87.75-7.18L87.75-11.72Q87.75-15.36 89.80-17.32Q91.85-19.28 95.36-19.28Q98.85-19.28 100.75-17.37Q102.65-15.47 102.65-12.15L102.65-11.99L99.14-11.99L99.14-12.26Q99.14-13.93 98.21-15.01Q97.28-16.09 95.36-16.09Q93.47-16.09 92.39-14.93Q91.31-13.77 91.31-11.77L91.31-7.13Q91.31-5.16 92.39-3.98Q93.47-2.81 95.36-2.81Q97.28-2.81 98.21-3.90Q99.14-5 99.14-6.64L99.14-7.13L102.65-7.13L102.65-6.75Q102.65-3.43 100.75-1.53Q98.85 0.38 95.36 0.38" class="cl" style="--i:6" fill="#0A0A0A" /><path d="M108.24 0L104.67 0L104.67-18.90L108.24-18.90L108.24-11.39L108.72-11.39L114.85-18.90L119.41-18.90L111.53-9.58L119.68 0L114.99 0L108.72-7.67L108.24-7.67" class="cl" style="--i:7" fill="#0A0A0A" /></g>
+
+<g class="frame">
+  <circle cx="311.0" cy="50" r="4" fill="#3178c6" class="dot" />
+  <text x="398" y="54" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="500" letter-spacing="1.4" fill="#5F5F5F" fill-opacity="1" text-anchor="end" xml:space="preserve">TYPESCRIPT</text>
+</g>
+
+<text style="--i:0" x="36" y="92" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" letter-spacing="0.1" fill="#5F5F5F" fill-opacity="1" text-anchor="start" class="cb" xml:space="preserve">Your life as a deck of day cards. Local-first,</text><text style="--i:1" x="36" y="109" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" letter-spacing="0.1" fill="#5F5F5F" fill-opacity="1" text-anchor="start" class="cb" xml:space="preserve">offline, and SQLite all the way down.</text>
+
+
+<g class="frame">
+  <text x="398" y="139.5" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="600" letter-spacing="1.5" fill="#C42B08" fill-opacity="1" text-anchor="end" xml:space="preserve">REPO  ↗</text>
+</g>
+</svg>
