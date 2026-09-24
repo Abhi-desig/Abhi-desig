@@ -10,21 +10,26 @@
     {
       "name": "Comfyui_customnodes",
       "displayName": "Comfyui_customnodes",
-      "blurb": "A Python project. Description coming.",
-      "description": "",
+      "blurb": "A resilient overnight batch controller for ComfyUI: pushes ~500 distinct assets through…",
+      "description": "A resilient overnight batch controller for ComfyUI: pushes ~500 distinct assets through ComfyUI unattended, on a rented GPU pod, and is designed around the fact that both the generation engine and the rented hardware can fail silently.",
       "url": "https://github.com/Abhi-desig/Comfyui_customnodes",
       "live": "",
       "stars": 0,
       "forks": 0,
-      "pushedAt": "2026-09-23T09:01:07Z",
+      "pushedAt": "2026-09-24T07:29:46Z",
       "language": "Python",
       "languageColor": "#3572A5",
       "topics": [],
       "languages": [
         {
           "name": "Python",
-          "size": 249027,
+          "size": 450905,
           "color": "#3572A5"
+        },
+        {
+          "name": "Shell",
+          "size": 42938,
+          "color": "#89e051"
         }
       ]
     },
@@ -281,77 +286,77 @@
   "stats": {
     "repoCount": 7,
     "stars": 0,
-    "contributions": 192,
-    "commits": 156,
-    "current": 1,
+    "contributions": 197,
+    "commits": 161,
+    "current": 2,
     "longest": 9,
-    "lastPush": "2026-09-23",
+    "lastPush": "2026-09-24",
     "languages": [
       {
         "name": "TypeScript",
         "size": 2887501,
         "color": "#3178c6",
-        "pct": 65.23851418459905
+        "pct": 61.81915457545082
       },
       {
         "name": "Python",
-        "size": 1093736,
+        "size": 1295614,
         "color": "#3572A5",
-        "pct": 24.7112335373067
+        "pct": 27.738089834814993
       },
       {
         "name": "JavaScript",
         "size": 283810,
         "color": "#f1e05a",
-        "pct": 6.4122376791319065
+        "pct": 6.076151752002405
       },
       {
         "name": "Shell",
-        "size": 57550,
+        "size": 100488,
         "color": "#89e051",
-        "pct": 1.300251148423386
+        "pct": 2.1513700618555287
       },
       {
         "name": "CSS",
         "size": 50358,
         "color": "#663399",
-        "pct": 1.1377592933502152
+        "pct": 1.0781256824190024
       },
       {
         "name": "Swift",
         "size": 25637,
         "color": "#F05138",
-        "pct": 0.5792274316616915
+        "pct": 0.5488682656216681
       },
       {
         "name": "Rust",
         "size": 13397,
         "color": "#dea584",
-        "pct": 0.3026840075660835
+        "pct": 0.28681936866768687
       },
       {
         "name": "HTML",
         "size": 7355,
         "color": "#e34c26",
-        "pct": 0.1661745820443789
+        "pct": 0.15746483963206964
       },
       {
         "name": "PLpgSQL",
         "size": 3652,
         "color": "#336790",
-        "pct": 0.08251115888865693
+        "pct": 0.07818648461404736
       },
       {
         "name": "Dockerfile",
         "size": 2639,
         "color": "#384d54",
-        "pct": 0.05962402746636518
+        "pct": 0.05649894109980037
       },
       {
         "name": "Batchfile",
         "size": 433,
         "color": "#C1F12E",
-        "pct": 0.00978294956155215
+        "pct": 0.009270193821983162
       }
     ]
   }
