@@ -8,6 +8,37 @@
   },
   "repos": [
     {
+      "name": "Focus-",
+      "displayName": "Focus-",
+      "blurb": "A TypeScript project. Description coming.",
+      "description": "",
+      "url": "https://github.com/Abhi-desig/Focus-",
+      "live": "",
+      "stars": 0,
+      "forks": 0,
+      "pushedAt": "2026-09-30T05:28:56Z",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "topics": [],
+      "languages": [
+        {
+          "name": "TypeScript",
+          "size": 406553,
+          "color": "#3178c6"
+        },
+        {
+          "name": "CSS",
+          "size": 25944,
+          "color": "#663399"
+        },
+        {
+          "name": "JavaScript",
+          "size": 8155,
+          "color": "#f1e05a"
+        }
+      ]
+    },
+    {
       "name": "Comfyui_customnodes",
       "displayName": "Comfyui_customnodes",
       "blurb": "A resilient overnight batch controller for ComfyUI: pushes ~500 distinct assets through…",
@@ -30,37 +61,6 @@
           "name": "Shell",
           "size": 49088,
           "color": "#89e051"
-        }
-      ]
-    },
-    {
-      "name": "Focus-",
-      "displayName": "Focus-",
-      "blurb": "A TypeScript project. Description coming.",
-      "description": "",
-      "url": "https://github.com/Abhi-desig/Focus-",
-      "live": "",
-      "stars": 0,
-      "forks": 0,
-      "pushedAt": "2026-09-27T02:57:00Z",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "topics": [],
-      "languages": [
-        {
-          "name": "TypeScript",
-          "size": 406553,
-          "color": "#3178c6"
-        },
-        {
-          "name": "CSS",
-          "size": 25944,
-          "color": "#663399"
-        },
-        {
-          "name": "JavaScript",
-          "size": 8155,
-          "color": "#f1e05a"
         }
       ]
     },
@@ -319,9 +319,9 @@
     "stars": 0,
     "contributions": 203,
     "commits": 166,
-    "current": 2,
+    "current": 0,
     "longest": 9,
-    "lastPush": "2026-09-28",
+    "lastPush": "2026-09-30",
     "languages": [
       {
         "name": "TypeScript",
