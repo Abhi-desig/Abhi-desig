@@ -8,6 +8,52 @@
   },
   "repos": [
     {
+      "name": "Gesture",
+      "displayName": "Gesture",
+      "blurb": "Your hands drive macOS. MediaPipe watches, Node decides, Swift presses the keys.",
+      "description": "A gesture-powered macOS companion where AI watches your hand, Chrome sees the motion, Node makes the decisions, Swift presses the keys, and Rust quietly keeps everything alive. No clicks. Just vibes and surprisingly cooperative software.",
+      "url": "https://github.com/Abhi-desig/Gesture",
+      "live": "",
+      "stars": 0,
+      "forks": 0,
+      "pushedAt": "2026-10-01T10:02:50Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "topics": [
+        "jarvis-ai",
+        "macos",
+        "mediapipe",
+        "mediapipe-hands"
+      ],
+      "languages": [
+        {
+          "name": "JavaScript",
+          "size": 208100,
+          "color": "#f1e05a"
+        },
+        {
+          "name": "Swift",
+          "size": 25637,
+          "color": "#F05138"
+        },
+        {
+          "name": "Rust",
+          "size": 13397,
+          "color": "#dea584"
+        },
+        {
+          "name": "CSS",
+          "size": 5293,
+          "color": "#663399"
+        },
+        {
+          "name": "HTML",
+          "size": 2525,
+          "color": "#e34c26"
+        }
+      ]
+    },
+    {
       "name": "Comfyui_customnodes",
       "displayName": "Comfyui_customnodes",
       "blurb": "A resilient overnight batch controller for ComfyUI: pushes ~500 distinct assets through…",
@@ -132,52 +178,6 @@
       ]
     },
     {
-      "name": "Gesture",
-      "displayName": "Gesture",
-      "blurb": "Your hands drive macOS. MediaPipe watches, Node decides, Swift presses the keys.",
-      "description": "A gesture-powered macOS companion where AI watches your hand, Chrome sees the motion, Node makes the decisions, Swift presses the keys, and Rust quietly keeps everything alive. No clicks. Just vibes and surprisingly cooperative software.",
-      "url": "https://github.com/Abhi-desig/Gesture",
-      "live": "",
-      "stars": 0,
-      "forks": 0,
-      "pushedAt": "2026-09-02T04:52:55Z",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "topics": [
-        "jarvis-ai",
-        "macos",
-        "mediapipe",
-        "mediapipe-hands"
-      ],
-      "languages": [
-        {
-          "name": "JavaScript",
-          "size": 208100,
-          "color": "#f1e05a"
-        },
-        {
-          "name": "Swift",
-          "size": 25637,
-          "color": "#F05138"
-        },
-        {
-          "name": "Rust",
-          "size": 13397,
-          "color": "#dea584"
-        },
-        {
-          "name": "CSS",
-          "size": 5293,
-          "color": "#663399"
-        },
-        {
-          "name": "HTML",
-          "size": 2525,
-          "color": "#e34c26"
-        }
-      ]
-    },
-    {
       "name": "GitDNA-",
       "displayName": "GitDNA",
       "blurb": "Reads a repository's commit history and renders its shape — who touched what, and when.",
@@ -290,7 +290,7 @@
     "commits": 163,
     "current": 0,
     "longest": 9,
-    "lastPush": "2026-09-28",
+    "lastPush": "2026-10-01",
     "languages": [
       {
         "name": "TypeScript",
