@@ -67,9 +67,9 @@ Small tools, mostly at the seam between AI and creative work. I build rough, shi
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/github-snake-dark.svg?v=416a39be23" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/github-snake.svg?v=f06db43578" />
-  <img alt="Contribution graph, consumed by a snake" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/github-snake-dark.svg?v=416a39be23" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/github-snake-dark.svg?v=0e3bf4bd5e" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/github-snake.svg?v=ab12402d51" />
+  <img alt="Contribution graph, consumed by a snake" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/github-snake-dark.svg?v=0e3bf4bd5e" width="100%" />
 </picture>
 <!-- STATS:END -->
 
