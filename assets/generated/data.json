@@ -16,7 +16,7 @@
       "live": "",
       "stars": 0,
       "forks": 0,
-      "pushedAt": "2026-10-02T07:21:52Z",
+      "pushedAt": "2026-10-25T12:37:14Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "topics": [
@@ -28,32 +28,27 @@
       "languages": [
         {
           "name": "JavaScript",
-          "size": 208742,
+          "size": 610721,
           "color": "#f1e05a"
         },
         {
           "name": "Swift",
-          "size": 25637,
+          "size": 47472,
           "color": "#F05138"
         },
         {
           "name": "Rust",
-          "size": 13752,
+          "size": 45368,
           "color": "#dea584"
         },
         {
           "name": "CSS",
-          "size": 5293,
+          "size": 27775,
           "color": "#663399"
         },
         {
-          "name": "Shell",
-          "size": 5276,
-          "color": "#89e051"
-        },
-        {
           "name": "HTML",
-          "size": 2525,
+          "size": 13463,
           "color": "#e34c26"
         }
       ]
@@ -291,77 +286,77 @@
   "stats": {
     "repoCount": 7,
     "stars": 0,
-    "contributions": 203,
-    "commits": 166,
-    "current": 0,
+    "contributions": 212,
+    "commits": 174,
+    "current": 1,
     "longest": 9,
-    "lastPush": "2026-10-02",
+    "lastPush": "2026-10-25",
     "languages": [
       {
         "name": "TypeScript",
         "size": 2887501,
         "color": "#3178c6",
-        "pct": 58.17896184992715
+        "pct": 53.01367247384201
       },
       {
         "name": "Python",
         "size": 1575443,
         "color": "#3572A5",
-        "pct": 31.74289400894918
+        "pct": 28.92467195793424
       },
       {
         "name": "JavaScript",
-        "size": 284452,
+        "size": 686431,
         "color": "#f1e05a",
-        "pct": 5.731295696914209
+        "pct": 12.602672071764424
       },
       {
         "name": "Shell",
-        "size": 111914,
+        "size": 106638,
         "color": "#89e051",
-        "pct": 2.2549049633135176
+        "pct": 1.9578424406660169
       },
       {
         "name": "CSS",
-        "size": 50358,
+        "size": 72840,
         "color": "#663399",
-        "pct": 1.014640743271996
+        "pct": 1.3373210617051394
       },
       {
         "name": "Swift",
-        "size": 25637,
+        "size": 47472,
         "color": "#F05138",
-        "pct": 0.5165484081032637
+        "pct": 0.8715720131969574
       },
       {
         "name": "Rust",
-        "size": 13752,
+        "size": 45368,
         "color": "#dea584",
-        "pct": 0.2770828766328386
+        "pct": 0.8329431895584674
       },
       {
         "name": "HTML",
-        "size": 7355,
+        "size": 18293,
         "color": "#e34c26",
-        "pct": 0.14819259435969517
+        "pct": 0.33585412111164353
       },
       {
         "name": "PLpgSQL",
         "size": 3652,
         "color": "#336790",
-        "pct": 0.073582509123264
+        "pct": 0.06704965015578211
       },
       {
         "name": "Dockerfile",
         "size": 2639,
         "color": "#384d54",
-        "pct": 0.05317202671859082
+        "pct": 0.04845126691158516
       },
       {
         "name": "Batchfile",
         "size": 433,
         "color": "#C1F12E",
-        "pct": 0.008724322686301564
+        "pct": 0.007949753153738678
       }
     ]
   }
