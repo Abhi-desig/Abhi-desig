@@ -1,8 +1,8 @@
 <!-- HERO:START -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/hero-dark.svg?v=68e43dab24" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/hero-light.svg?v=0a69b4e16a" />
-  <img alt="Abhinav Anil — Creative Technologist. Motion, interfaces, and small tools that do one thing well." src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/hero-dark.svg?v=68e43dab24" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/hero-dark.svg?v=6872f100e1" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/hero-light.svg?v=6296e2e265" />
+  <img alt="Abhinav Anil — Creative Technologist. Motion, interfaces, and small tools that do one thing well." src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/hero-dark.svg?v=6872f100e1" width="100%" />
 </picture>
 <!-- HERO:END -->
 
@@ -61,15 +61,15 @@ Small tools, mostly at the seam between AI and creative work. I build rough, shi
 
 <!-- STATS:START -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/stats-dark.svg?v=c0437bbee4" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/stats-light.svg?v=5d3c10facc" />
-  <img alt="212 contributions, 174 commits, 7 public repos" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/stats-dark.svg?v=c0437bbee4" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/stats-dark.svg?v=57629f7963" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/stats-light.svg?v=54f97a1208" />
+  <img alt="217 contributions, 178 commits, 7 public repos" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/stats-dark.svg?v=57629f7963" width="100%" />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/github-snake-dark.svg?v=6c9a286b74" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/github-snake.svg?v=d1c467a095" />
-  <img alt="Contribution graph, consumed by a snake" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/github-snake-dark.svg?v=6c9a286b74" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/github-snake-dark.svg?v=e079b72ecf" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/github-snake.svg?v=109009a19e" />
+  <img alt="Contribution graph, consumed by a snake" src="https://raw.githubusercontent.com/Abhi-desig/Abhi-desig/main/assets/generated/github-snake-dark.svg?v=e079b72ecf" width="100%" />
 </picture>
 <!-- STATS:END -->
 
